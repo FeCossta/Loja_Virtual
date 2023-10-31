@@ -1,0 +1,123 @@
+/* SobreNos.css */
+.about-us {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  padding: 30px 0;
+
+}
+
+
+
+
+.about-us-description {
+  font-size: 16px;
+  color: #555; 
+  line-height: 1.5;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.about-us-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  color: #ffbc09;
+  margin-top: 0;
+}
+
+.saibaMais {
+  background: #ffbc09;
+  color: #002a58;
+  font-size: 15px;
+  padding: 0 12px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 40px;
+  transition: .5s;
+}
+
+.saibaMais:hover {
+  color: #ffbc09;
+  background-color: #002a58;
+}
+
+
+.infoSchulz {
+  display: flex; 
+  flex-wrap: wrap; 
+  padding-bottom: 50px;
+}
+
+.infoSchulz .bloco:nth-child(odd) {
+  background-color: #3399FF; 
+  color: #fff; 
+}
+
+.infoSchulz .bloco:nth-child(even) {
+  background-color: #0077CC; 
+  color: #fff; 
+}
+
+.infoSchulz .bloco {
+  flex: 1; 
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.infoSchulz .bloco img {
+  max-width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.infoSchulz .title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.infoSchulz .bloco p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+
+.infoSchulz .bloco:nth-child(4) img {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+  .infoSchulz .bloco {
+    flex: 1;
+    width: calc(50% - 10px); 
+    margin: 5px; 
+  }
+
+  .infoSchulz {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  }
+
+  .infoSchulz .bloco:nth-child(odd) {
+    background-color: transparent; 
+    color: inherit;
+  }
+}

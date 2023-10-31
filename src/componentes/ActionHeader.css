@@ -1,0 +1,38 @@
+.action-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://testifying-oojzjfzgp-fe-costa.vercel.app/assets/img/bk1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+}
+
+.action-header img { 
+    width: 280px;
+    
+}
+
+.searchBar input{
+height: 25px;
+width: 400px;
+margin-right: 100px;
+
+    
+}
+
+.searchBar button{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    right: 126px;
+    top: 1.8px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .searchBar{
+        display: none;
+    }
+}

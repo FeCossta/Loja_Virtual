@@ -1,0 +1,144 @@
+.main-menu {
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  color: #002a58;
+  padding: 0; 
+  height: 40px; 
+  transition: transform 0.3s;
+  border: 1px solid #002a58;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+} 
+
+.main-menu.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+  margin-top: 0px;
+  z-index: 2;
+}
+
+.main-menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.main-menu li {
+  margin: 0 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .6rem;
+  color: #002a58;
+} 
+
+.main-menu li:hover {
+  text-decoration: underline;
+  color: #0077CC;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.iconEquip {
+  width: 32px;
+}
+
+.home {
+  font-size: 30px;
+  
+  
+}
+
+.home a{
+  text-decoration: none;
+  color: #002a58;
+  border-right: 1px solid rgba(0, 0, 255, 0.2);
+  padding-right: 30px;
+  
+}
+
+.main-menu a {
+  text-decoration: none;
+} 
+
+.main-menu .menu-item {
+  position: relative;
+}
+
+.compress {
+  text-decoration: none;
+  
+}
+.compress:hover{
+  text-decoration: underline;
+  color: #0077CC;
+}
+.main-menu .compressors-menu {
+  background-color: transparent;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #002a58;
+  border-top: none;  
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.main-menu .menu-item:hover .compressors-menu {
+  opacity: 1;
+  pointer-events: auto;
+}
+.compressors-menu{
+  color: #0077CC;
+}
+
+.main-menu .menu-item .compressors-menu a {
+  padding: 7px; 
+  display: block;
+  font-size: 15px;
+  color: #002a58;
+  text-decoration: none;
+  border-top: 1px solid #002a58;
+  transition: background-color 0.3s;
+}
+
+.main-menu .menu-item .compressors-menu a:hover {
+  background-color: #ffbc09; 
+}
+
+.main-menu .compressors-menu a:hover {
+  background-color: transparent; 
+}
+
+@media screen and (max-width: 480px) {
+  .main-menu li span {
+    display: none; 
+    
+  }
+  .main-menu li {
+    margin: 5px 7px; 
+    text-align: center;
+    padding-left: 7px;
+  }
+}
+
+
+
+

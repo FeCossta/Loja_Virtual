@@ -1,0 +1,147 @@
+.contato-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  padding-bottom: 100px;
+}
+
+.contato-form {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(253, 114, 114, 1);
+  margin: 10px; 
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.contato-form input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 80%;
+  margin: auto;
+}
+
+.contato-form button {
+  height: 40px;
+  background-color: #3399FF;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 15px;
+  width: 100%; 
+}
+
+.contato-form p {
+  color: #fd2903;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.contato-container h1 {
+  padding: 25px 0;
+  max-width: 90%; 
+  margin: 0 auto;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.campo label {
+  font-weight: bold;
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+.campo-obrigatorio {
+  color: red;
+  margin-left: 4px;
+}
+
+.redirect a {
+  text-decoration: none;
+}
+
+.redirect span {
+  font-size: 25px;
+  color: #00ff37;
+  align-self: center;
+}
+
+.redirect a {
+  text-decoration: none;
+  color: #071ffc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-btn button {
+  flex: 1;
+  margin: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .contato-form {
+    width: 80%; 
+    max-width: 90%; 
+    margin: 0 auto;
+  }
+  .contato-container h1 {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .contato-container {
+    height: 190vh;
+  }
+
+  .campo label {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .contato-form input[type="text"] {
+    width: 90%;
+  max-width: 100%; 
+    margin: 0 auto;
+  }
+
+  .redirect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .redirect a{
+    margin-left: 25px;
+    padding-left: 25px;
+  }
+  .redirect span {
+    display: none;
+  }
+  
+  .contact-btn {
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto ;
+  }
+
+  
+  .contact-btn button {
+    margin: 5px 0;
+  }
+}

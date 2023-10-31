@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    
+}
+.main {
+    padding-bottom: 90px;
+}
+
+
+.compressors-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width: calc(33.33% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 60%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 14px;
+  }
+  
+  .product a {
+    display: none;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ffbc09;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .product:hover a {
+    display: block;
+  }
+  
