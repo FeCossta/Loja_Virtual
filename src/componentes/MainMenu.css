@@ -128,15 +128,53 @@
 }
 
 @media screen and (max-width: 480px) {
+ .main-menu {
+  max-width: 470px;
+ }
   .main-menu li span {
     display: none; 
     
   }
   .main-menu li {
-    margin: 5px 7px; 
-    text-align: center;
-    padding-left: 7px;
+    margin: 0 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    color: #002a58;
   }
+
+  .main-menu .menu-item:hover .compressors-menu {
+    display: none;
+}
+.main-menu .menu-item .compressors-menu {
+    display: none;
+}
+
+.main-menu .menu-item.active .compressors-menu {
+    display: block; 
+}
+
+.main-menu .menu-item .compressors-menu a {
+    padding: 5px; 
+    display: block;
+    color: #002a58;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.main-menu .menu-item .compressors-menu a:hover {
+    background-color: transparent; 
+}
+
+.main-menu .menu-item .compress .text {
+  display: none;
+}
+
+.main-menu .menu-item.active .compress .text {
+  display: block; 
+}
 }
 
 

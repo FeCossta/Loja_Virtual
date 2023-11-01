@@ -38,7 +38,9 @@ function MainMenu() {
 
                 <li className={`menu-item ${selectedOption === 'compressores' ? 'active' : ''}`}>
                     <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/compressor.png" className="icon" />
-                    <a href="/compressores" className='compress'>Compressores</a>
+                    <a href="/compressores" className='compress'>
+                    <span className="text">Compressores</span>
+                    </a>
                     <div className="compressors-menu">
                         <a href="/compressores/parafuso" onClick={() => handleOptionClick('parafuso')}>
                             Compressores Parafuso
@@ -52,7 +54,7 @@ function MainMenu() {
                         <a href="/compressores/odontologicos" onClick={() => handleOptionClick('odontologicos')}>
                             Compressores Isento de óleo
                         </a>
-                    </div>
+                    </div> 
                 </li>
 
                 <a href="/error">
