@@ -14,7 +14,7 @@ const products = [
       image: './assets/Products/Compressores/Compressor-1.jpg',
       link: '/compressores/pistao',
       type: 'Compressores Pistão'
-    },
+    }, 
     
     {
         id: 2,
@@ -45,32 +45,34 @@ const products = [
   ];
 
 
+
+
 const CompressoresPage = () => {
-
-
-    
   return (
     <>
-    <Navbar />
-    <MainMenu/>
-    
-    <div className='main'>
-    <div className="compressors-page">
-      {products.map((product) => (
-        <div key={product.id} className="product">
-          <img src={product.image} alt={product.name} />
-          <h3>{product.name}</h3>
-          <p>{product.description}</p>
-          <a href={product.link}>Ver Mais {product.type}</a>
+      <Navbar />
+      <div className='logo'>
+      <a href="/"><img src="https://testifying-nbfc5lxc9-fe-costa.vercel.app/assets/img/LogoManuteec-1.png"/> </a>
+      </div>
+      <MainMenu />
+      <div className="main">
+        <div className="compressors-page">
+          {products.map((product) => (
+            <a key={product.id} href={product.link} className="product">
+              <img src={product.image} alt={product.name} />
+              <h3>{product.name}</h3>
+              <p>{product.description}</p>
+              <p className='pLink'>Ver Mais {product.type}</p>
+            </a>
+          ))}
         </div>
-      ))}
-    </div>
-    </div>
-
-
-    <Footer/>
+      </div>
+      <Footer />
     </>
-  )
-}
+  );
+};
+
+
+
 
 export default CompressoresPage

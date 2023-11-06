@@ -13,7 +13,7 @@ function Footer() {
                         <li><a href="/error">Loja física</a></li>
                         <li><a href="/error">Produtos</a></li>
                         <li><a href="/error">Serviços</a></li>
-                        <li><a href="#contato">Contato</a></li> {/* Adicionando o #contato para navegar para o elemento com id "contato" */}
+                        <li><a href="/contato">Contato</a></li> 
                     </ul>
                 </div>
                 <div className="footer-column">
@@ -26,7 +26,7 @@ function Footer() {
                         <li><a href="/error">Lei de proteção de Dados</a></li>
                     </ul>
                 </div>
-                <div className="footer-column" id="contato"> {/* Adicionando o id "contato" a este bloco */}
+                <div className="footer-column" id="contato"> 
                     <h4>Atendimento</h4>
                     <ul className="footer-links">
                         <li><FaPhoneAlt /><span> ( 21 ) 97039-3605</span></li>
