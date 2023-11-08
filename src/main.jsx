@@ -17,6 +17,7 @@ import {
   Route,
 } from 'react-router-dom'
 import LayoutProdcts from './pages/products/LayoutProdcts'
+import Parafuso from './pages/products/Parafuso'
 
 
 const router = createBrowserRouter([
@@ -39,6 +40,12 @@ const router = createBrowserRouter([
   {
     path: "/compressores/pistao",
     element: <Pistao />,
+  },
+
+  {
+    path: "/compressores/parafuso",
+    element: <Parafuso/>
+
   },
   
   {

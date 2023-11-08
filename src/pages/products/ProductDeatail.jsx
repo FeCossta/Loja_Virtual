@@ -4,11 +4,10 @@ import './ProductDeatail.css';
 const ProductDeatail = ({ product }) => {
   const [showModal, setShowModal] = useState(false);
 
-  const [productName, setProductName] = useState(''); // Nome do produto no estado
-
+  const [productName, setProductName] = useState('');
   const openModal = () => {
     setShowModal(true);
-    setProductName(product.name); // Define o nome do produto ao abrir o modal
+    setProductName(product.name);
   };
 
   const closeModal = () => {
@@ -25,14 +24,14 @@ const ProductDeatail = ({ product }) => {
           <h1>{product.name}</h1>
           <p>Código do Produto: {product.code}</p>
           <p>Fabricante: {product.manufacturer}</p>
-          <h1>SOB CONSULTA</h1>
+          <h1>VALOR SOB CONSULTA</h1>
           <button onClick={openModal}>Solicite um Orçamento</button>
         </div>
       </div>
 
       <div className="contato">
         <h1>
-        Tem dúvidas se este é o compressor ideal para você?
+          Tem dúvidas se este é o compressor ideal para você?
         </h1>
         <p>
           Entre em contato conosco através dos nossos canais de <a href="/contato">contato</a>
@@ -40,7 +39,7 @@ const ProductDeatail = ({ product }) => {
       </div>
 
       <div className="description">
-        <h1 className="desc-title">Descrição completa: </h1>
+        <h1 className="desc-title">Descrição completa:</h1>
         <table>
           <tbody>
             <tr>
@@ -103,27 +102,46 @@ const ProductDeatail = ({ product }) => {
               <td>Unidade Compressora (n° de estágios)</td>
               <td>{product.nest}</td>
             </tr>
+            {product.type === 'parafuso' && (
+              <>
+                
+                
+            <tr>
+              <td>Conexão de descarga (pol)</td>
+              <td>{product.descarga}</td>
+            </tr>
+            <tr>
+              <td>Chave de partida</td>
+              <td>{product.chave}</td>
+            </tr>
+            <tr>
+              <td>Interface</td>
+              <td>{product.interface}</td>
+            </tr>
+            <tr>
+              <td>Tensão (V)</td>
+              <td>{product.tensao}</td>
+            </tr>
+              </>
+            )}
+           
           </tbody>
         </table>
       </div>
+
 
       {showModal && (
         <div className="modal">
           <h2>Solicite um Orçamento</h2>
           <form action="https://formspree.io/f/mbjvbzea" method="POST">
-            <input type="hidden" name="Produto" value={productName} /> 
+            <input type="hidden" name="Produto" value={productName} />
             <input type="text" placeholder="Nome" name="Nome" required />
             <input type="email" placeholder="E-mail" name="_replyto" required />
             <input type="text" placeholder="CNPJ" name="CNPJ" required />
             <input type="text" placeholder="Telefone" name="Telefone" required />
             <input type="text" placeholder="Celular" name="Celular" required />
-            <input type="text" placeholder="Cidade" name="Cidade" required />
-            <select name="Variação/Quantidade" required>
-              <option value="">Variação desejada </option>
-              <option value="Variação 1">Monofásico</option>
-              <option value="Variação 2">Trifásico</option>
-            </select>
-            
+            <input type="text" placeholder="Cidade" name="Cidade" required />            
+
             <p>* Preencha seus dados no formulário acima que entraremos em contato com o orçamento do produto.</p>
             <button type="submit">Enviar</button>
           </form>

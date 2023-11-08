@@ -25,6 +25,33 @@ const products = [
     },
 
     {
+      id: 7,
+      name: 'BRAVO CSL 10 BR / 100',
+      description: 'COMPRESSOR DE AR DE PISTÃO',
+      image: '../assets/Products/Compressores/pistao/pist7.jpg',
+      link: '/compressores/bravocsl10br100',
+      
+    }, 
+
+    {
+      id: 9,
+      name: 'BRAVO CSL 15 BR / 100',
+      description: 'COMPRESSOR DE AR DE PISTÃO',
+      image: '../assets/Products/Compressores/pistao/pist9.jpg',
+      link: '/compressores/bravocsl15br100',
+      
+    }, 
+
+    {
+      id: 8,
+      name: 'BRAVO CSL 10 BR / 200',
+      description: 'COMPRESSOR DE AR DE PISTÃO',
+      image: '../assets/Products/Compressores/pistao/pist8.jpg',
+      link: '/compressores/bravocsl10br200',
+      
+    }, 
+
+    {
       id: 3,
       name: 'BRAVO CSL 15 BR / 200',
       description: 'COMPRESSOR DE AR DE PISTÃO ',
@@ -58,38 +85,6 @@ const products = [
       
     }, 
     {
-      id: 7,
-      name: 'BRAVO CSL 10 BR / 100',
-      description: 'COMPRESSOR DE AR DE PISTÃO',
-      image: '../assets/Products/Compressores/pistao/pist7.jpg',
-      link: '/compressores/bravocsl10br100',
-      
-    }, 
-    {
-      id: 8,
-      name: 'BRAVO CSL 10 BR / 200',
-      description: 'COMPRESSOR DE AR DE PISTÃO',
-      image: '../assets/Products/Compressores/pistao/pist8.jpg',
-      link: '/compressores/bravocsl10br200',
-      
-    }, 
-    {
-      id: 9,
-      name: 'BRAVO CSL 15 BR / 100',
-      description: 'COMPRESSOR DE AR DE PISTÃO',
-      image: '../assets/Products/Compressores/pistao/pist9.jpg',
-      link: '/compressores/bravocsl15br100',
-      
-    }, 
-    {
-      id: 10,
-      name: 'BRAVO CSL 15 BR / 200',
-      description: 'COMPRESSOR DE AR DE PISTÃO',
-      image: '../assets/Products/Compressores/pistao/pist10.jpg',
-      link: '/compressores/bravocsl15br200',
-      
-    }, 
-    {
       id: 11,
       name: 'BRAVO CSL 40 BR / 250',
       description: 'COMPRESSOR DE AR DE PISTÃO',
@@ -99,10 +94,18 @@ const products = [
     }, 
     {
       id: 12,
-      name: 'BRAVO CSL 50 BR / 350',
+      name: 'BRAVO CSL 60 BR / 350',
       description: 'COMPRESSOR DE AR DE PISTÃO',
       image: '../assets/Products/Compressores/pistao/pist12.jpg',
       link: '/compressores/bravocsl60br350',
+      
+    }, 
+    {
+      id: 10,
+      name: 'BRAVO CSL 15 BR / 200',
+      description: 'COMPRESSOR DE AR DE PISTÃO',
+      image: '../assets/Products/Compressores/pistao/pist10.jpg',
+      link: '/compressores/bravocsl15br200',
       
     }, 
 ];

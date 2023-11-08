@@ -9,8 +9,8 @@ import Footer from '../componentes/Footer'
 const products = [
     {
       id: 1,
-      name: 'BRAVO CSL 25 BR / 200 ',
-      description: 'COMPRESSOR DE AR DE PISTÃO BRAVO CSL 25 BR / 200 - SÉRIE ESPECIAL 60 ANOS SCHULZ',
+      name: 'COMPRESSORES PISTÃO ',
+      description: 'COMPRESSOR DE AR DE PISTÃO SCHULZ',
       image: './assets/Products/Compressores/Compressor-1.jpg',
       link: '/compressores/pistao',
       type: 'Compressores Pistão'
@@ -18,8 +18,8 @@ const products = [
     
     {
         id: 2,
-        name: 'SRP 4015E TS FLEX',
-        description: 'COMPRESSOR DE AR DE PARAFUSO SRP 4015E TS FLEX',
+        name: 'COMPRESSORES PARAFUSO',
+        description: 'COMPRESSOR DE AR DE PARAFUSO ',
         image: './assets/Products/Compressores/Compressor-2.jpg',
         link: '/compressores/parafuso',
         type: 'Compressores Parafuso'
@@ -27,19 +27,19 @@ const products = [
 
       {
         id: 3,
-        name: 'CSD 27/200',
+        name: 'COMPRESSORES ISENTOS DE ÓLEO',
         description: 'COMPRESSOR DE AR ISENTO DE ÓLEO ',
         image: './assets/Products/Compressores/Compressor-3.jpg',
-        link: '/compressores/odontologicos',
+        link: '/erorr',
         type: 'Compressores Isento'
       },
 
       {
         id: 4,
-        name: 'COMPRESSOR DE AR JET MASTER - G5',
+        name: 'COMPRESSORES DE AR DIRETO',
         description: 'COMPRESSOR DE AR DIRETO ',
         image: './assets/Products/Compressores/Compressor-4.jpg',
-        link: '/compressores/jet',
+        link: '/error',
         type: 'Compressores de Ar-Direto'
       },
   ];
@@ -61,7 +61,7 @@ const CompressoresPage = () => {
             <a key={product.id} href={product.link} className="product">
               <img src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
-              <p>{product.description}</p>
+              
               <p className='pLink'>Ver Mais {product.type}</p>
             </a>
           ))}
