@@ -6,11 +6,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 25px;
+    
 }
 
 .action-header img { 
     width: 280px;
-    
+    margin-left: 45px;
 }
 
 .searchBar input{

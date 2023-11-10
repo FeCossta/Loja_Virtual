@@ -104,27 +104,27 @@ const ProductDeatail = ({ product }) => {
             </tr>
             {product.type === 'parafuso' && (
               <>
-                
-                
-            <tr>
-              <td>Conexão de descarga (pol)</td>
-              <td>{product.descarga}</td>
-            </tr>
-            <tr>
-              <td>Chave de partida</td>
-              <td>{product.chave}</td>
-            </tr>
-            <tr>
-              <td>Interface</td>
-              <td>{product.interface}</td>
-            </tr>
-            <tr>
-              <td>Tensão (V)</td>
-              <td>{product.tensao}</td>
-            </tr>
+
+
+                <tr>
+                  <td>Conexão de descarga (pol)</td>
+                  <td>{product.descarga}</td>
+                </tr>
+                <tr>
+                  <td>Chave de partida</td>
+                  <td>{product.chave}</td>
+                </tr>
+                <tr>
+                  <td>Interface</td>
+                  <td>{product.interface}</td>
+                </tr>
+                <tr>
+                  <td>Tensão (V)</td>
+                  <td>{product.tensao}</td>
+                </tr>
               </>
             )}
-           
+
           </tbody>
         </table>
       </div>
@@ -140,7 +140,19 @@ const ProductDeatail = ({ product }) => {
             <input type="text" placeholder="CNPJ" name="CNPJ" required />
             <input type="text" placeholder="Telefone" name="Telefone" required />
             <input type="text" placeholder="Celular" name="Celular" required />
-            <input type="text" placeholder="Cidade" name="Cidade" required />            
+            <select name="Variação/Quantidade" required>
+              <option value="">Variação desejada e/ou quantidade que deseja para este produto</option>
+              {Object.keys(product).map((key) => {
+                if (key.startsWith('op')) {
+                  return (
+                    <option key={key} value={product[key]}>
+                      {product[key]}
+                    </option>
+                  );
+                }
+                return null;
+              })}
+            </select>
 
             <p>* Preencha seus dados no formulário acima que entraremos em contato com o orçamento do produto.</p>
             <button type="submit">Enviar</button>

@@ -30,7 +30,7 @@ const products = [
         name: 'COMPRESSORES ISENTOS DE ÓLEO',
         description: 'COMPRESSOR DE AR ISENTO DE ÓLEO ',
         image: './assets/Products/Compressores/Compressor-3.jpg',
-        link: '/erorr',
+        link: '/compressores/isento',
         type: 'Compressores Isento'
       },
 
@@ -75,4 +75,4 @@ const CompressoresPage = () => {
 
 
 
-export default CompressoresPage
+export default CompressoresPage 

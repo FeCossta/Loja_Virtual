@@ -18,6 +18,7 @@ import {
 } from 'react-router-dom'
 import LayoutProdcts from './pages/products/LayoutProdcts'
 import Parafuso from './pages/products/Parafuso'
+import Isento from './pages/products/Isento'
 
 
 const router = createBrowserRouter([
@@ -47,6 +48,12 @@ const router = createBrowserRouter([
     element: <Parafuso/>
 
   },
+  {
+    path: "/compressores/isento",
+    element: <Isento/>
+
+  },
+  
   
   {
     path: "/compressores/produto-list",

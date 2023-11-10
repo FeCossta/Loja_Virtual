@@ -51,7 +51,7 @@ function MainMenu() {
                         <a href="/compressores/jet" onClick={() => handleOptionClick('hobby')}>
                             Compressores Ar Direto
                         </a>
-                        <a href="/compressores/odontologicos" onClick={() => handleOptionClick('odontologicos')}>
+                        <a href="/compressores/isento" onClick={() => handleOptionClick('odontologicos')}>
                             Compressores Isento de óleo
                         </a>
                     </div> 
