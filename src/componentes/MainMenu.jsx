@@ -38,7 +38,7 @@ function MainMenu() {
 
                 <li className={`menu-item ${selectedOption === 'compressores' ? 'active' : ''}`}>
                     <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/compressor.png" className="icon" />
-                    <a href="/compressors" className='compress'>
+                    <a href="/compressores" className='compress'>
                     <span className="text">Compressores</span>
                     </a>
                     <div className="compressors-menu">

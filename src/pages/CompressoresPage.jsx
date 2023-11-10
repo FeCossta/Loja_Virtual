@@ -39,7 +39,7 @@ const products = [
         name: 'COMPRESSORES DE AR DIRETO',
         description: 'COMPRESSOR DE AR DIRETO ',
         image: './assets/Products/Compressores/Compressor-4.jpg',
-        link: '/error',
+        link: '/compressores/jet',
         type: 'Compressores de Ar-Direto'
       },
   ];

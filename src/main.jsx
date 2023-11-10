@@ -10,15 +10,16 @@ import Pistao from './pages/products/Pistao'
 import ProductList from './pages/products/ProductList'
 import productsData from './pages/products/PistaoList.json'
 import ProductDeatail from './pages/products/ProductDeatail'
+import LayoutProdcts from './pages/products/LayoutProdcts'
+import Parafuso from './pages/products/Parafuso'
+import Isento from './pages/products/Isento'
+import Jet from './pages/products/Jet'
 
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
 } from 'react-router-dom'
-import LayoutProdcts from './pages/products/LayoutProdcts'
-import Parafuso from './pages/products/Parafuso'
-import Isento from './pages/products/Isento'
 
 
 const router = createBrowserRouter([
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
     element: <ErrorMessage />,
   },
   {
-    path: "/compressors",
+    path: "/compressores",
     element: <CompressoresPage />,
   },
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
     path: "/compressores/isento",
     element: <Isento/>
 
+  },
+  {
+    path: "/compressores/jet",
+    element: <Jet/>
   },
   
   

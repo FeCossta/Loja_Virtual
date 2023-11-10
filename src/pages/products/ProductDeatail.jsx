@@ -18,7 +18,7 @@ const ProductDeatail = ({ product }) => {
     <>
       <div className="ProductDetail">
         <div className="ProductDetailImage">
-          <img src={product.image} alt={product.name} />
+          <img src={product.image} alt={product.name} loading={product.image.loading || 'lazy'} />
         </div>
         <div className="ProductDetailInfo">
           <h1>{product.name}</h1>
@@ -28,6 +28,7 @@ const ProductDeatail = ({ product }) => {
           <button onClick={openModal}>Solicite um Orçamento</button>
         </div>
       </div>
+
 
       <div className="contato">
         <h1>
@@ -42,89 +43,118 @@ const ProductDeatail = ({ product }) => {
         <h1 className="desc-title">Descrição completa:</h1>
         <table>
           <tbody>
-            <tr>
-              <th>Informação</th>
-              <th>Valor</th>
-            </tr>
-            <tr>
-              <td>Potência do motor</td>
-              <td>{product.hp}</td>
-            </tr>
-            <tr>
-              <td>Número de polos</td>
-              <td>{product.polos}</td>
-            </tr>
-            <tr>
-              <td>Volume do reservatório</td>
-              <td>{product.reservatorio}</td>
-            </tr>
-            <tr>
-              <td>Peso Líquido (Kg)</td>
-              <td>{product.pesoL}</td>
-            </tr>
-            <tr>
-              <td>Peso Bruto (Kg)</td>
-              <td>{product.pesoB}</td>
-            </tr>
-            <tr>
-              <td>Dimensão L x A x C (mm)</td>
-              <td>{product.dim}</td>
-            </tr>
-            <tr>
-              <td>Deslocamento Teórico (l/min)</td>
-              <td>{product.lmin}</td>
-            </tr>
-            <tr>
-              <td>Deslocamento Teórico (pcm)</td>
-              <td>{product.pcm}</td>
-            </tr>
-            <tr>
-              <td>Pressão de operação máxima (bar)</td>
-              <td>{product.bar}</td>
-            </tr>
-            <tr>
-              <td>Pressão de operação máxima (lbf/pol²)</td>
-              <td>{product.pol}</td>
-            </tr>
-            <tr>
-              <td>Pressão de operação mínima (bar)</td>
-              <td>{product.minBar}</td>
-            </tr>
-            <tr>
-              <td>Pressão de operação mínima (lbf/pol²)</td>
-              <td>{product.minPol}</td>
-            </tr>
-            <tr>
-              <td>Unidade Compressora (n° de pistões)</td>
-              <td>{product.npis}</td>
-            </tr>
-            <tr>
-              <td>Unidade Compressora (n° de estágios)</td>
-              <td>{product.nest}</td>
-            </tr>
+            {product.hp && (
+              <tr>
+                <td>Potência do motor</td>
+                <td>{product.hp}</td>
+              </tr>
+            )}
+            {product.polos && (
+              <tr>
+                <td>Número de polos</td>
+                <td>{product.polos}</td>
+              </tr>
+            )}
+            {product.reservatorio && (
+              <tr>
+                <td>Volume do reservatório</td>
+                <td>{product.reservatorio}</td>
+              </tr>
+            )}
+            {product.pesoL && (
+              <tr>
+                <td>Peso Líquido (Kg)</td>
+                <td>{product.pesoL}</td>
+              </tr>
+            )}
+            {product.pesoB && (
+              <tr>
+                <td>Peso Bruto (Kg)</td>
+                <td>{product.pesoB}</td>
+              </tr>
+            )}
+            {product.dim && (
+              <tr>
+                <td>Dimensão L x A x C (mm)</td>
+                <td>{product.dim}</td>
+              </tr>
+            )}
+            {product.lmin && (
+              <tr>
+                <td>Deslocamento Teórico (l/min)</td>
+                <td>{product.lmin}</td>
+              </tr>
+            )}
+            {product.pcm && (
+              <tr>
+                <td>Deslocamento Teórico (pcm)</td>
+                <td>{product.pcm}</td>
+              </tr>
+            )}
+            {product.bar && (
+              <tr>
+                <td>Pressão de operação máxima (bar)</td>
+                <td>{product.bar}</td>
+              </tr>
+            )}
+            {product.pol && (
+              <tr>
+                <td>Pressão de operação máxima (lbf/pol²)</td>
+                <td>{product.pol}</td>
+              </tr>
+            )}
+            {product.minBar && (
+              <tr>
+                <td>Pressão de operação mínima (bar)</td>
+                <td>{product.minBar}</td>
+              </tr>
+            )}
+            {product.minPol && (
+              <tr>
+                <td>Pressão de operação mínima (lbf/pol²)</td>
+                <td>{product.minPol}</td>
+              </tr>
+            )}
+            {product.npis && (
+              <tr>
+                <td>Unidade Compressora (n° de pistões)</td>
+                <td>{product.npis}</td>
+              </tr>
+            )}
+            {product.nest && (
+              <tr>
+                <td>Unidade Compressora (n° de estágios)</td>
+                <td>{product.nest}</td>
+              </tr>
+            )}
             {product.type === 'parafuso' && (
               <>
-
-
-                <tr>
-                  <td>Conexão de descarga (pol)</td>
-                  <td>{product.descarga}</td>
-                </tr>
-                <tr>
-                  <td>Chave de partida</td>
-                  <td>{product.chave}</td>
-                </tr>
-                <tr>
-                  <td>Interface</td>
-                  <td>{product.interface}</td>
-                </tr>
-                <tr>
-                  <td>Tensão (V)</td>
-                  <td>{product.tensao}</td>
-                </tr>
+                {product.descarga && (
+                  <tr>
+                    <td>Conexão de descarga (pol)</td>
+                    <td>{product.descarga}</td>
+                  </tr>
+                )}
+                {product.chave && (
+                  <tr>
+                    <td>Chave de partida</td>
+                    <td>{product.chave}</td>
+                  </tr>
+                )}
+                {product.interface && (
+                  <tr>
+                    <td>Interface</td>
+                    <td>{product.interface}</td>
+                  </tr>
+                )}
+                {product.tensao && (
+                  <tr>
+                    <td>Tensão (V)</td>
+                    <td>{product.tensao}</td>
+                  </tr>
+                )}
               </>
             )}
-
           </tbody>
         </table>
       </div>
@@ -141,7 +171,7 @@ const ProductDeatail = ({ product }) => {
             <input type="text" placeholder="Telefone" name="Telefone" required />
             <input type="text" placeholder="Celular" name="Celular" required />
             <select name="Variação/Quantidade" required>
-              <option value="">Variação desejada e/ou quantidade que deseja para este produto</option>
+              <option value="">Variação desejada para este produto</option>
               {Object.keys(product).map((key) => {
                 if (key.startsWith('op')) {
                   return (
