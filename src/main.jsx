@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     element: <ErrorMessage />,
   },
   {
-    path: "/compressores",
+    path: "/compressors",
     element: <CompressoresPage />,
   },
   {
