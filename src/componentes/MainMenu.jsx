@@ -33,7 +33,7 @@ function MainMenu() {
             <ul>
 
                 <li className='home'>
-                    <a aria-label="Home Button"  href="/"><FaHome /></a>
+                    <a aria-label="Home Button" href="/"><FaHome /></a>
                 </li>
 
                 <li className={`menu-item ${selectedOption === 'compressores' ? 'active' : ''}`}>
@@ -69,7 +69,7 @@ function MainMenu() {
                         <a href="/tratamento/separador-de-agua-e-oleo" onClick={() => handleOptionClick('separador')}>
                             Separadores de Água e Óleo
                         </a>
-                        
+
                         <a href="/tratamento/purgador-eletronico" onClick={() => handleOptionClick('purgadores')}>
                             Purgadores Eletrónicos
                         </a>
@@ -77,40 +77,102 @@ function MainMenu() {
                             Filtros de linha
                         </a>
                     </div>
-                </li>   
+                </li>
 
-                <a href="/error">
+                <li className={`menu-item ${selectedOption === 'equipamentos' ? 'active' : ''}`}>
+                    <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/equip.png" alt='Equipamentos' className="iconEquip" />
+                    <a href="/error" className='compress'>
+                        <span className="text">Equipamentos</span>
+                    </a>
+                    <div className="compressors-menu">
+                        <a href="/error" onClick={() => handleOptionClick('geradores')}>
+                            Geradores de Energia
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('aspiradores')}>
+                            Aspiradores
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('maquinas-solda')}>
+                            Máquinas de Solda
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('motor-combustao')}>
+                            Motor a Combustão
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('carretel-retratil')}>
+                            Carretel Retrátil
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('lavadoras')}>
+                            Lavadoras
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('motobombas')}>
+                            Motobombas
+                        </a>
+                    </div>
+                </li>
 
-                    <li>
-                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/equip.png" alt='icone de Equipamentos' className="iconEquip" />
-                        <span>Equipamentos</span>
-                    </li>
-                </a>
 
-                <a href="/error">
+                <li className={`menu-item ${selectedOption === 'pecas' ? 'active' : ''}`}>
+                    <img src="https://testifying-6u5maumev-fe-costa.vercel.app/assets/menu/pecas.png" alt='Peças' className="icon" />
+                    <a href="/error" className='compress'>
+                        <span className="text">Peças</span>
+                    </a>
+                    <div className="compressors-menu">
+                        <a href="/error" onClick={() => handleOptionClick('manutencao-corretiva')}>
+                            Manutenção Corretiva
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('kit-manutencao-preventiva')}>
+                            Kit Manutenção Preventiva
+                        </a>
+                    </div>
+                </li>
 
-                    <li>
-                        <img src="https://testifying-6u5maumev-fe-costa.vercel.app/assets/menu/pecas.png" alt='icone de Peças' className="icon" />
-                        <span>Peças</span>
-                    </li>
-                </a>
-                <a href="/error">
+                <li className={`menu-item ${selectedOption === 'ferramentas' ? 'active' : ''}`}>
+                    <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/ferramentas.png" alt='Ferramentas' className="icon" />
+                    <a href="/error" className='compress'>
+                        <span className="text">Ferramentas</span>
+                    </a>
+                    <div className="compressors-menu">
+                        <a href="/error" onClick={() => handleOptionClick('ferramentas-pneumaticas')}>
+                            Ferramentas Pneumáticas
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('ferramentas-manuais')}>
+                            Ferramentas Manuais
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('ferramentas-bancada-coluna')}>
+                            Ferramentas de Bancada e Coluna
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('ferramentas-eletricas')}>
+                            Ferramentas Elétricas
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('ferramentas-bateria')}>
+                            Ferramentas a Bateria
+                        </a>
+                    </div>
+                </li>
 
-                    <li>
-                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/ferramentas.png" alt='icone de Ferramentas' className="icon" />
-                        <span>Ferramentas</span>
-                    </li>
-                </a>
 
-                <a href="/error">
+                <li className={`menu-item ${selectedOption === 'hobby' ? 'active' : ''}`}>
+                    <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/hobby.png" alt='Hobby e Residencial' className="icon" />
+                    <a href="/error" className='compress'>
+                        <span className="text">Hobby e Residencial</span>
+                    </a>
+                    <div className="compressors-menu">
+                        <a href="/error" onClick={() => handleOptionClick('acessorios')}>
+                            Acessórios
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('aspiradores-hobby')}>
+                            Aspiradores
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('pistolas-pintura')}>
+                            Pistolas de Pintura
+                        </a>
+                        <a href="/error" onClick={() => handleOptionClick('jardinagem')}>
+                            Jardinagem
+                        </a>
+                    </div>
+                </li>
 
-                    <li>
-                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/hobby.png" alt='Equipamentos hobby' className="icon" />
-                        <span>Hobby e Residencial</span>
-                    </li>
-                </a>
             </ul>
-        </div>
+        </div >
     );
 }
 
