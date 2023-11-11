@@ -215,7 +215,7 @@ const ProductDeatail = ({ product }) => {
 
             }
 
-            {product.filt &&(
+            {product.filt && (
               <tr>
                 <td>Capacidade de Filtração</td>
                 <td>{product.filt}</td>
@@ -223,7 +223,64 @@ const ProductDeatail = ({ product }) => {
             )
 
             }
-            
+
+            {product.cv && (
+              <tr>
+                <td>Potência Máxima do Motor (CV)</td>
+                <td>{product.cv}</td>
+              </tr>
+            )}
+
+            {product.cc && (
+              <tr>
+                <td>Cilindrada (cc)</td>
+                <td>{product.cc}</td>
+              </tr>
+            )}
+
+            {product.volComb && (
+              <tr>
+                <td>Volume do Combustível</td>
+                <td>{product.volComb}</td>
+              </tr>
+            )}
+
+            {product.volCart && (
+              <tr>
+                <td>Volume Cárter</td>
+                <td>{product.volCart}</td>
+              </tr>
+            )}
+
+            {product.vaMax && (
+              <tr>
+                <td>Potência Máxima (VA)</td>
+                <td>{product.vaMax}</td>
+              </tr>
+            )}
+
+            {product.vaNom && (
+              <tr>
+                <td>Potência Nominal (VA)</td>
+                <td>{product.vaNom}</td>
+              </tr>
+            )}
+
+            {product.hz && (
+              <tr>
+                <td>Frequência Alternada (Hz)</td>
+                <td>{product.hz}</td>
+              </tr>
+            )}
+
+            {product.combustivel && (
+              <tr>
+                <td>Combustível</td>
+                <td>{product.combustivel}</td>
+              </tr>
+            )}
+
+
 
             {product.type === 'parafuso' && (
               <>

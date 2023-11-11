@@ -81,11 +81,11 @@ function MainMenu() {
 
                 <li className={`menu-item ${selectedOption === 'equipamentos' ? 'active' : ''}`}>
                     <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/equip.png" alt='Equipamentos' className="iconEquip" />
-                    <a href="/error" className='compress'>
+                    <a href="/equipamentos" className='compress'>
                         <span className="text">Equipamentos</span>
                     </a>
                     <div className="compressors-menu">
-                        <a href="/error" onClick={() => handleOptionClick('geradores')}>
+                        <a href="/equipamentos/geradores-de-energia" onClick={() => handleOptionClick('geradores')}>
                             Geradores de Energia
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('aspiradores')}>

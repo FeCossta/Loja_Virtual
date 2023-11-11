@@ -18,15 +18,20 @@ import TratamentoPage from './pages/TratamentoPage'
 import Secadoras from './pages/products/Secadoras'
 import SeparadorAO from './pages/products/SeparadorAO'
 import Purgadores from './pages/products/Purgadores'
+import FIltroDeLinha from './pages/products/FIltroDeLinha'
+import EquipamentosPage from './pages/EquipamentosPage'
+import Geradores from './pages/products/Geradores'
+
+
+
+
+
 
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
 } from 'react-router-dom'
-import FIltroDeLinha from './pages/products/FIltroDeLinha'
-
-
 
 
 const router = createBrowserRouter([
@@ -53,29 +58,29 @@ const router = createBrowserRouter([
 
   {
     path: "/compressores/parafuso",
-    element: <Parafuso/>
+    element: <Parafuso />
 
   },
   {
     path: "/compressores/isento",
-    element: <Isento/>
+    element: <Isento />
 
   },
   {
     path: "/compressores/jet",
-    element: <Jet/>
+    element: <Jet />
   },
-  
+
   {
     path: "/tratamento",
-    element: <TratamentoPage/>
+    element: <TratamentoPage />
   },
 
   {
     path: "/tratamento/secadoras",
-    element: <Secadoras/>
+    element: <Secadoras />
   },
-  
+
   {
     path: "/compressores/produto-list",
     element: (
@@ -87,19 +92,28 @@ const router = createBrowserRouter([
 
   {
     path: "/tratamento/separador-de-agua-e-oleo",
-    element: <SeparadorAO/>
+    element: <SeparadorAO />
   },
 
   {
     path: "/tratamento/purgador-eletronico",
-    element: <Purgadores/>
+    element: <Purgadores />
   },
 
   {
     path: "/tratamento/filtro-de-linha",
-    element: <FIltroDeLinha/>
+    element: <FIltroDeLinha />
   },
-  
+
+  {
+    path: "/equipamentos",
+    element: <EquipamentosPage />
+  },
+
+  {
+    path: "/equipamentos/geradores-de-energia",
+    element: <Geradores />
+  },
   ...productsData.map((product) => ({
     path: product.link,
     element: (
