@@ -42,7 +42,7 @@
     color: #f7fc00;
   }
 
-  .banner-button-left::before
+  .leftButton::before
 {
   content: '\2190';
     font-family: 'FontAwesome';
@@ -50,21 +50,21 @@
     opacity: 0.7;
 }
 
-.banner-button-right::after {
+.rightButton::after {
     content: '\2192'; 
     font-family: 'FontAwesome';
     font-size: 35px;
     opacity: 0.7;
   }
 
-  .banner-button-left {
+  .leftButton {
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
   }
   
-  .banner-button-right {
+  .rightButton {
     position: absolute;
     right: 0;
     top: 50%;

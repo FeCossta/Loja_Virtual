@@ -191,6 +191,39 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
+            {product.mmin && (
+              <tr>
+                <td>Vazão do Compressor (m³/min)</td>
+                <td>{product.mmin}</td>
+              </tr>
+            )}
+
+            {product.oilAbs && (
+              <tr>
+                <td>Absorção de Óleo Máx. (l)</td>
+                <td>{product.oilAbs}</td>
+              </tr>
+            )
+            }
+
+            {product.ih && (
+              <tr>
+                <td>Capacidade de Drenagem(l/h)</td>
+                <td>{product.ih}</td>
+              </tr>
+            )
+
+            }
+
+            {product.filt &&(
+              <tr>
+                <td>Capacidade de Filtração</td>
+                <td>{product.filt}</td>
+              </tr>
+            )
+
+            }
+            
 
             {product.type === 'parafuso' && (
               <>

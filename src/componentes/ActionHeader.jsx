@@ -11,7 +11,7 @@ const ActionHeader = () => {
           
           <span className="searchBar">
           <input type="text" placeholder="Pesquisar produtos" />
-          <button><FaSearch/></button>
+          <button name="Search" aria-label="Search" ><FaSearch/></button>
           </span>
         </div>
       );

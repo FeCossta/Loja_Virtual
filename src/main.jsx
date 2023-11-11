@@ -14,14 +14,19 @@ import LayoutProdcts from './pages/products/LayoutProdcts'
 import Parafuso from './pages/products/Parafuso'
 import Isento from './pages/products/Isento'
 import Jet from './pages/products/Jet'
+import TratamentoPage from './pages/TratamentoPage'
+import Secadoras from './pages/products/Secadoras'
+import SeparadorAO from './pages/products/SeparadorAO'
+import Purgadores from './pages/products/Purgadores'
 
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
 } from 'react-router-dom'
-import TratamentoPage from './pages/TratamentoPage'
-import Secadoras from './pages/products/Secadoras'
+import FIltroDeLinha from './pages/products/FIltroDeLinha'
+
+
 
 
 const router = createBrowserRouter([
@@ -78,6 +83,21 @@ const router = createBrowserRouter([
         <ProductList products={productsData} />
       </LayoutProdcts>
     ),
+  },
+
+  {
+    path: "/tratamento/separador-de-agua-e-oleo",
+    element: <SeparadorAO/>
+  },
+
+  {
+    path: "/tratamento/purgador-eletronico",
+    element: <Purgadores/>
+  },
+
+  {
+    path: "/tratamento/filtro-de-linha",
+    element: <FIltroDeLinha/>
   },
   
   ...productsData.map((product) => ({

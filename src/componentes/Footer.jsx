@@ -7,7 +7,7 @@ function Footer() {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-column">
-                    <h4>Institucional</h4>
+                    <p>Institucional</p>
                     <ul className="footer-links">
                         <li><a href="/error">Sobre nós</a></li>
                         <li><a href="/error">Loja física</a></li>
@@ -17,7 +17,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-column">
-                    <h4>Dúvidas</h4>
+                    <p>Dúvidas</p>
                     <ul className="footer-links">
                         <li><a href="/error">FAQ</a></li>
                         <li><a href="/error">Termos de uso</a></li>
@@ -27,7 +27,7 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-column" id="contato"> 
-                    <h4>Atendimento</h4>
+                    <p>Atendimento</p>
                     <ul className="footer-links">
                         <li><FaPhoneAlt /><span> ( 21 ) 97039-3605</span></li>
                         <li><FaWhatsapp /> <span><a href="https://api.whatsapp.com/send?phone=5521970397632">(21) 970397632</a></span></li>

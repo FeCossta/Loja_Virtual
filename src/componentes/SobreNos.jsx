@@ -32,22 +32,22 @@ function SobreNos() {
             <div className="infoSchulz">
                 <div className="bloco">
                     <img src="https://testifying-oojzjfzgp-fe-costa.vercel.app/assets/us/produtos.png" alt="" />
-                    <h4 className='title'>Produtos</h4>
+                    <p className='title'>Produtos</p>
                     <p>Produtos schulz disponíveis para compra</p>
                 </div>
                 <div className="bloco">
                     <img src="https://testifying-oojzjfzgp-fe-costa.vercel.app/assets/us/pecas.png" alt="" />
-                    <h4 className='title'>Peças de Reposição</h4>
+                    <p className='title'>Peças de Reposição</p>
                     <p>Variedade em peças para reposição</p>
                 </div>
                 <div className="bloco">
                     <img src="https://testifying-oojzjfzgp-fe-costa.vercel.app/assets/us/site-seguro.png" alt="" />
-                    <h4 className='title'>Site seguro</h4>
+                    <p className='title'>Site seguro</p>
                     <p>Ambiente seguro e garantia para compras</p>
                 </div>
                 <div className="bloco">
                     <img src="https://testifying-oojzjfzgp-fe-costa.vercel.app/assets/us/schulz.png" alt="" />
-                    <h4 className='title'>Loja Oficial</h4>
+                    <p className='title'>Loja Oficial</p>
                     <p>Representante oficial Schulz</p>
                 </div>
             </div>

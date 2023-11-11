@@ -22,17 +22,8 @@ const products = [
         name: 'SEPARADORES DE ÁGUA E ÓLEO ',
         description: 'SEPARADORES DE ÁGUA E ÓLEO', 
         image: './assets/Products/Tratamento/product2.jpg',
-        link: '/error',
+        link: '/tratamento/separador-de-agua-e-oleo',
         type: 'Separador agua e oleo'
-    },
-
-    {
-        id: 7,
-        name: 'SEPARADORES DE CONDENSADO ',
-        description: 'SEPARADORES DE CONDENSADO ', 
-        image: './assets/Products/Tratamento/product3.jpg',
-        link: '/error',
-        type: 'Separadores de condensado'
     },
 
     {
@@ -40,7 +31,7 @@ const products = [
         name: 'PURGADORES ELETRÓNICOS',
         description: 'PURGADORES ELETRÓNICOS ', 
         image: './assets/Products/Tratamento/product4.jpg',
-        link: '/error',
+        link: '/tratamento/purgador-eletronico',
         type: 'Purgadores eletrónicos'
     },
 
@@ -49,7 +40,7 @@ const products = [
         name: 'FILTROS DE LINHA',
         description: 'FILTROS DE LINHA', 
         image: './assets/Products/Tratamento/product5.jpg',
-        link: '/error',
+        link: '/tratamento/filtro-de-linha',
         type: 'Filtros de linha'
     },
 ];

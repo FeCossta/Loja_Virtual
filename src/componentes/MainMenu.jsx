@@ -33,7 +33,7 @@ function MainMenu() {
             <ul>
 
                 <li className='home'>
-                    <a href="/"><FaHome /></a>
+                    <a aria-label="Home Button"  href="/"><FaHome /></a>
                 </li>
 
                 <li className={`menu-item ${selectedOption === 'compressores' ? 'active' : ''}`}>
@@ -66,16 +66,14 @@ function MainMenu() {
                         <a href="/tratamento/secadoras" onClick={() => handleOptionClick('secadoras')}>
                             Secadoras de Ar
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('separador')}>
+                        <a href="/tratamento/separador-de-agua-e-oleo" onClick={() => handleOptionClick('separador')}>
                             Separadores de Água e Óleo
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('condensado')}>
-                            Separadores de Condensado
-                        </a>
-                        <a href="/error" onClick={() => handleOptionClick('purgadores')}>
+                        
+                        <a href="/tratamento/purgador-eletronico" onClick={() => handleOptionClick('purgadores')}>
                             Purgadores Eletrónicos
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('filtros')}>
+                        <a href="/tratamento/filtro-de-linha" onClick={() => handleOptionClick('filtros')}>
                             Filtros de linha
                         </a>
                     </div>
@@ -84,7 +82,7 @@ function MainMenu() {
                 <a href="/error">
 
                     <li>
-                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/equip.png" alt='Equipamentos' className="iconEquip" />
+                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/equip.png" alt='icone de Equipamentos' className="iconEquip" />
                         <span>Equipamentos</span>
                     </li>
                 </a>
@@ -92,14 +90,14 @@ function MainMenu() {
                 <a href="/error">
 
                     <li>
-                        <img src="https://testifying-6u5maumev-fe-costa.vercel.app/assets/menu/pecas.png" alt='Peças' className="icon" />
+                        <img src="https://testifying-6u5maumev-fe-costa.vercel.app/assets/menu/pecas.png" alt='icone de Peças' className="icon" />
                         <span>Peças</span>
                     </li>
                 </a>
                 <a href="/error">
 
                     <li>
-                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/ferramentas.png" alt='Ferramentas' className="icon" />
+                        <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/ferramentas.png" alt='icone de Ferramentas' className="icon" />
                         <span>Ferramentas</span>
                     </li>
                 </a>

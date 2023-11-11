@@ -1356,5 +1356,129 @@
     "op1": "220 v - Cód.: 972.0621-0",
     "op2": "230 v - Cód.: 972.0631-0",
     "op3": "115 v - Cód.: 972.0641-0"
+  },
+
+  {
+    "id": 51,
+    "type": "SepAO",
+    "name": "SL 10    ",
+    "description": "Separador Agua e Oleo",
+    "code": "",
+    "image": "../assets/Products/Tratamento/trat9G.jpg",
+    "link": "/tratamento/sl10",
+    "manufacturer": "Schulz",
+    "mmin": "10",
+    "pcm": 350,
+    "oilAbs": 10,
+    "dim": "650 x 240 x 750"
+  },
+
+  {
+    "id": 52,
+    "type": "SepAO",
+    "name": " SL 20",
+    "description": "Separador Agua e Oleo",
+    "code": " 007.0432-0",
+    "image": "../assets/Products/Tratamento/trat11G.jpg",
+    "link": "/tratamento/sl20",
+    "manufacturer": "Schulz",
+    "mmin": "20",
+    "pcm": 700,
+    "oilAbs": 15,
+    "dim": "780 x 305 x 900"
+  },
+
+  {
+    "id": 53,
+    "type": "SepAO",
+    "name": " SL 30",
+    "description": "Separador Agua e Oleo",
+    "code": " 007.0433-0",
+    "image": "../assets/Products/Tratamento/trat11G.jpg",
+    "link": "/tratamento/sl30",
+    "manufacturer": "Schulz",
+    "mmin": "30",
+    "pcm": 1050,
+    "oilAbs": 25,
+    "dim": "970 x 380 x 900"
+  },
+
+  {
+    "id": 54,
+    "type": "Purgador",
+    "name": "PS16",
+    "description": "Purgador Eletronico",
+    "code": "971.0258-0",
+    "image": "../assets/Products/Tratamento/trat12G.jpg",
+    "link": "/tratamento/ps16",
+    "manufacturer": "Schulz",
+    "bsp": "3/8",
+    "pesoL": "0,200kg",
+    "pesoB": "0,220",
+    "op1": "110 v (monofásico) - Cód.: 830.1017-0",
+    "op2": "220 v (monofásico) - Cód.: 830.1017-0"
+  },
+  {
+    "id": 55,
+    "type": "Purgador",
+    "name": "DRENO MAGNÉTICO DM",
+    "description": "Purgador Eletronico Tipo DRENO MAGNÉTICO DM",
+    "code": " 007.0434-0",
+    "image": "../assets/Products/Tratamento/trat13G.jpg",
+    "link": "/tratamento/drenodm",
+    "manufacturer": "Schulz",
+    "bsp": "1/2  |  1/4 ",
+    "pesoL": "2,00",
+    "pesoB": "2,200",
+    "bar": 16,
+    "dim": "110 x 140 x 160",
+    "ih": 200
+  },
+  {
+    "id": 56,
+    "type": "Purgador",
+    "name": " PS16/EZI",
+    "description": "Purgador Eletronico",
+    "code": "971.0258-0 ",
+    "image": "../assets/Products/Tratamento/trat14G.jpg",
+    "link": "/tratamento/ps16ezi",
+    "manufacturer": "Schulz",
+    "bsp": "3/8",
+    "pesoL": "0,520",
+    "pesoB": "0,572",
+    "op1": "220 v - Cód.: 971.0258-0",
+    "op2": " 110 v - Cód.: 971.0257-0"
+  },
+  {
+    "id": 57,
+    "type": "FiltroL",
+    "name": "UNIDADE FR 1/2 - 2.600 L/MIN",
+    "description": "Filtro de Linha",
+    "code": "971.0258-0 ",
+    "image": "../assets/Products/Tratamento/trat15G.jpg",
+    "link": "/tratamento/fr122600",
+    "manufacturer": "Schulz",
+    "bsp": "3/8",
+    "lmin": 2600,
+    "filt": "5 µ",
+    "bar": "10 bar",    
+    "op1": "Padrão - Cód. 926.6019-0 "
+  },
+  {
+    "id": 58,
+    "type": "FiltroL",
+    "name": "UNIDADE FR 1/4 - 2.080 L/MIN",
+    "description": "Filtro de Linha",
+    "code": "926.6018-0 ",
+    "image": "../assets/Products/Tratamento/trat16G.jpg",
+    "link": "/tratamento/fr142080",
+    "manufacturer": "Schulz",
+    "bsp": "1/4",
+    "lmin": 2080,
+    "filt": "5 µ",
+    "bar": "10 bar",
+    "op1": "Padrão - 926.6018-0"
   }
+
+
 ]

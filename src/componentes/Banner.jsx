@@ -37,10 +37,10 @@ function Banner() {
   ))}
 
       
-      <button onClick={goToPreviousImage} className="banner-button-left">
+      <button onClick={goToPreviousImage} name='Left Button' aria-label="Voltar" className="leftButton">
         
       </button>
-      <button onClick={goToNextImage} className="banner-button-right">
+      <button onClick={goToNextImage} name='Right Button' aria-label="Avançar" className="rightButton">
         
       </button>
     </div>
