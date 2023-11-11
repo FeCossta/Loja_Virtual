@@ -8,7 +8,7 @@ import Contato from './pages/Contato'
 import CompressoresPage from './pages/CompressoresPage'
 import Pistao from './pages/products/Pistao'
 import ProductList from './pages/products/ProductList'
-import productsData from './pages/products/PistaoList.json'
+import productsData from './pages/products/Products.json'
 import ProductDeatail from './pages/products/ProductDeatail'
 import LayoutProdcts from './pages/products/LayoutProdcts'
 import Parafuso from './pages/products/Parafuso'
@@ -20,6 +20,8 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom'
+import TratamentoPage from './pages/TratamentoPage'
+import Secadoras from './pages/products/Secadoras'
 
 
 const router = createBrowserRouter([
@@ -59,6 +61,15 @@ const router = createBrowserRouter([
     element: <Jet/>
   },
   
+  {
+    path: "/tratamento",
+    element: <TratamentoPage/>
+  },
+
+  {
+    path: "/tratamento/secadoras",
+    element: <Secadoras/>
+  },
   
   {
     path: "/compressores/produto-list",

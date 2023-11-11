@@ -14,7 +14,7 @@
   "dev": "vite",
   
     
-  "build": "vite build",
+  "build": "vite build && cp robots.txt dist/",
   
     
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

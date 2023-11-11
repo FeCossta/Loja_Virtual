@@ -127,6 +127,71 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.nest}</td>
               </tr>
             )}
+
+            {product.volAt7 && (
+              <tr>
+                <td>Capacidade Vol at 7 bar</td>
+                <td>{product.volAt7}</td>
+              </tr>
+            )}
+
+            {product.volA4 && (
+              <tr>
+                <td>Capacidade Vol a 4 bar</td>
+                <td>{product.volA4}</td>
+              </tr>
+            )}
+
+            {product.pMax && (
+              <tr>
+                <td>Pressão Máxima</td>
+                <td>{product.pMax}</td>
+              </tr>
+            )}
+
+            {product.potencia && (
+              <tr>
+                <td>Potência(W)</td>
+                <td>{product.potencia}</td>
+              </tr>
+            )}
+
+            {product.tempIn && (
+              <tr>
+                <td>Temperatura Entrada ºC</td>
+                <td>{product.tempIn}</td>
+              </tr>
+            )}
+
+            {product.bsp && (
+              <tr>
+                <td>Conexão Entrada/Saída - BSP</td>
+                <td>{product.bsp}</td>
+              </tr>
+            )}
+
+            {product.gas && (
+              <tr>
+                <td>Gás</td>
+                <td>{product.gas}</td>
+              </tr>
+            )}
+
+            {product.pre && (
+              <tr>
+                <td>Pré Filtro Coalescente</td>
+                <td>{product.pre}</td>
+              </tr>
+            )}
+
+            {product.orv && (
+              <tr>
+                <td>Ponto de Orvalho</td>
+                <td>{product.orv}</td>
+              </tr>
+            )}
+
+
             {product.type === 'parafuso' && (
               <>
                 {product.descarga && (
