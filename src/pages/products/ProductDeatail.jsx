@@ -14,6 +14,7 @@ const ProductDeatail = ({ product }) => {
     setShowModal(false);
   };
 
+
   return (
     <>
       <div className="ProductDetail">
@@ -48,6 +49,11 @@ const ProductDeatail = ({ product }) => {
                 <td>Potência do motor</td>
                 <td>{product.hp}</td>
               </tr>
+            )}
+            {product.txt && (
+              <p>
+                {product.txt}
+              </p>
             )}
             {product.polos && (
               <tr>
@@ -127,6 +133,51 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.nest}</td>
               </tr>
             )}
+
+            {product.nest && (
+              <tr>
+                <td>Motor elétrico (n° de estágios)</td>
+                <td>{product.nestM}</td>
+              </tr>
+            )}
+            {product.tanque && (
+              <tr>
+                <td>Capacidade do Tanque</td>
+                <td>{product.tanque}</td>
+              </tr>
+            )}
+
+            {product.aspmh && (
+              <tr>
+                <td>Aspiração ar (m³/hora)</td>
+                <td>{product.aspmh}</td>
+              </tr>
+            )}
+
+            {product.aspls && (
+              <tr>
+                <td>Aspiração ar (l/s)</td>
+                <td>{product.aspls}</td>
+              </tr>
+            )}
+
+            {product.eletrodo && (
+              <tr>
+                <td>Eletrodo AWS 6013</td>
+                <td>{product.eletrodo}</td>
+              </tr>
+            )}
+
+            {product.fator && (
+              <tr>
+                <td>Fator de Trabalho %</td>
+                <td>{product.fator}</td>
+              </tr>
+            )}
+
+
+
+
 
             {product.volAt7 && (
               <tr>
@@ -265,6 +316,70 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.vaNom}</td>
               </tr>
             )}
+
+            {product.aIn && (
+              <tr>
+                <td>Faixa de Corrente (entrada)</td>
+                <td>{product.aIn}</td>
+              </tr>
+            )}
+
+            {product.aOut && (
+              <tr>
+                <td>Faixa de Corrente (saída)</td>
+                <td>{product.aOut}</td>
+              </tr>
+            )}
+
+            {product.curso && (
+              <tr>
+                <td>Diâmetro x Curso (mm)</td>
+                <td>{product.curso}</td>
+              </tr>
+            )}
+            {product.torque && (
+              <tr>
+                <td>Máximo Torque (N.M)</td>
+                <td>{product.torque}</td>
+              </tr>
+            )}
+            {product.kwRpm && (
+              <tr>
+                <td>Potência Máxima (kW/rpm) (N.M)</td>
+                <td>{product.kwRpm}</td>
+              </tr>
+            )}
+            {product.relacomp && (
+              <tr>
+                <td>Relação Compressão</td>
+                <td>{product.relacomp}</td>
+              </tr>
+            )}
+            {product.igni && (
+              <tr>
+                <td>Sistema de Ignição</td>
+                <td>{product.igni}</td>
+              </tr>
+            )}
+            {product.partida && (
+              <tr>
+                <td>Sistema de Partida</td>
+                <td>{product.partida}</td>
+              </tr>
+            )}
+            {product.motor && (
+              <tr>
+                <td>Tipo do Motor</td>
+                <td>{product.motor}</td>
+              </tr>
+            )}
+            {product.descanso && (
+              <tr>
+                <td>Velocidade de Descanso</td>
+                <td>{product.descanso}</td>
+              </tr>
+            )}
+
 
             {product.hz && (
               <tr>

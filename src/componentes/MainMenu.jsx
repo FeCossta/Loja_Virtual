@@ -88,16 +88,16 @@ function MainMenu() {
                         <a href="/equipamentos/geradores-de-energia" onClick={() => handleOptionClick('geradores')}>
                             Geradores de Energia
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('aspiradores')}>
+                        <a href="/equipamentos/aspiradores" onClick={() => handleOptionClick('aspiradores')}>
                             Aspiradores
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('maquinas-solda')}>
+                        <a href="/equipamentos/maquinas-de-solda" onClick={() => handleOptionClick('maquinas-solda')}>
                             Máquinas de Solda
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('motor-combustao')}>
+                        <a href="/equipamentos/motores-a-combustao" onClick={() => handleOptionClick('motor-combustao')}>
                             Motor a Combustão
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('carretel-retratil')}>
+                        <a href="/equipamentos/carreteis" onClick={() => handleOptionClick('carretel-retratil')}>
                             Carretel Retrátil
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('lavadoras')}>
@@ -159,7 +159,7 @@ function MainMenu() {
                         <a href="/error" onClick={() => handleOptionClick('acessorios')}>
                             Acessórios
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('aspiradores-hobby')}>
+                        <a href="/equipamento/aspiradores" onClick={() => handleOptionClick('aspiradores-hobby')}>
                             Aspiradores
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('pistolas-pintura')}>

@@ -22,7 +22,7 @@ const products = [
         name: 'Aspiradores',
         description: 'Aspirador',
         image: './assets/Products/Equipamentos/eq8.jpg',
-        link: '/error',
+        link: '/equipamentos/aspiradores',
         type: 'Aspiradores'
     },
 
@@ -31,7 +31,7 @@ const products = [
         name: 'Máquinas de Solda',
         description: 'Inversoras de Solda',
         image: './assets/Products/Equipamentos/eq11.jpg',
-        link: '/error',
+        link: '/equipamentos/maquinas-de-solda',
         type: 'Equipamentos de Solda'
     },
 
@@ -40,7 +40,7 @@ const products = [
         name: 'Motor a Combustão',
         description: 'Motor a Combustão',
         image: './assets/Products/Equipamentos/eq15.jpg',
-        link: '/error',
+        link: '/equipamentos/motores-a-combustao',
         type: 'Motores a Combustão'
     },
     {
@@ -48,7 +48,7 @@ const products = [
         name: 'Carretel Retrátil ',
         description: 'Carretel Retrátil',
         image: './assets/Products/Equipamentos/eq19.jpg',
-        link: '/error',
+        link: '/equipamentos/carreteis',
         type: 'Carretéis'
     },
     {

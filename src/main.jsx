@@ -21,6 +21,10 @@ import Purgadores from './pages/products/Purgadores'
 import FIltroDeLinha from './pages/products/FIltroDeLinha'
 import EquipamentosPage from './pages/EquipamentosPage'
 import Geradores from './pages/products/Geradores'
+import Aspiradores from './pages/products/Aspiradores'
+import Inversoras from './pages/products/Inversoras'
+import MotoresCombustao from './pages/products/MotoresCombustao'
+import Carretel from './pages/products/Carretel'
 
 
 
@@ -81,15 +85,7 @@ const router = createBrowserRouter([
     element: <Secadoras />
   },
 
-  {
-    path: "/compressores/produto-list",
-    element: (
-      <LayoutProdcts>
-        <ProductList products={productsData} />
-      </LayoutProdcts>
-    ),
-  },
-
+  
   {
     path: "/tratamento/separador-de-agua-e-oleo",
     element: <SeparadorAO />
@@ -99,21 +95,52 @@ const router = createBrowserRouter([
     path: "/tratamento/purgador-eletronico",
     element: <Purgadores />
   },
-
+  
   {
     path: "/tratamento/filtro-de-linha",
     element: <FIltroDeLinha />
   },
-
+  
   {
     path: "/equipamentos",
     element: <EquipamentosPage />
   },
-
+  
+  {
+    path: "/equipamentos/aspiradores",
+    element: <Aspiradores/>
+  },
+  
   {
     path: "/equipamentos/geradores-de-energia",
     element: <Geradores />
   },
+  
+  {
+    path: '/equipamentos/maquinas-de-solda',
+    element: <Inversoras/>
+  },
+
+  {
+    path: "/equipamentos/motores-a-combustao",
+    element: <MotoresCombustao/>
+  },
+
+  {
+    path: "/equipamentos/carreteis",
+    element: <Carretel/>
+  },
+  
+  
+  {
+    path: "/compressores/produto-list",
+    element: (
+      <LayoutProdcts>
+        <ProductList products={productsData} />
+      </LayoutProdcts>
+    ),
+  },
+  
   ...productsData.map((product) => ({
     path: product.link,
     element: (
