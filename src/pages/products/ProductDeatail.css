@@ -8,7 +8,7 @@
 
 .ProductDetailImage img {
   width: 450px;
-  height: 500px;
+  height: 450px;
   object-fit: cover;
   border: 1px solid #ddd;
   border-radius: 5px;

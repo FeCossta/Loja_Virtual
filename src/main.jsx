@@ -25,6 +25,7 @@ import Aspiradores from './pages/products/Aspiradores'
 import Inversoras from './pages/products/Inversoras'
 import MotoresCombustao from './pages/products/MotoresCombustao'
 import Carretel from './pages/products/Carretel'
+import Lavadoras from './pages/products/Lavadoras'
 
 
 
@@ -131,6 +132,10 @@ const router = createBrowserRouter([
     element: <Carretel/>
   },
   
+  {
+   path: "/equipamentos/lavadoras",
+   element: <Lavadoras/>
+  },
   
   {
     path: "/compressores/produto-list",

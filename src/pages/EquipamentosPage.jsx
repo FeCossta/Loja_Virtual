@@ -56,7 +56,7 @@ const products = [
         name: 'Lavadoras',
         description: 'Lavadoras',
         image: './assets/Products/Equipamentos/eq25.png',
-        link: '/error',
+        link: '/equipamentos/lavadoras',
         type: 'Lavadoras'
     },
     

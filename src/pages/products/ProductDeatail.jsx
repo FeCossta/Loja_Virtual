@@ -200,10 +200,35 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
+            {product.vazao && (
+              <tr>
+                <td>Vazão</td>
+                <td>{product.vazao}</td>
+              </tr>
+            )}
+
+
+            {product.plugue && (
+              <tr>
+                <td>Tipo de plugue</td>
+                <td>{product.plugue}</td>
+              </tr>
+            )}
+
+
+
+
             {product.potencia && (
               <tr>
                 <td>Potência(W)</td>
                 <td>{product.potencia}</td>
+              </tr>
+            )}
+
+            {product.corrente && (
+              <tr>
+                <td>Corrente Elétrica</td>
+                <td>{product.corrente}</td>
               </tr>
             )}
 
@@ -286,6 +311,40 @@ const ProductDeatail = ({ product }) => {
               <tr>
                 <td>Cilindrada (cc)</td>
                 <td>{product.cc}</td>
+              </tr>
+            )}
+
+            {product.bico && (
+              <tr>
+                <td>Tipo de Bico</td>
+                <td>{product.bico}</td>
+              </tr>
+            )}
+
+            {product.hose && (
+              <tr>
+                <td>Tamanho da Mangueira</td>
+                <td>{product.hose}</td>
+              </tr>
+            )}
+            {product.hoseType && (
+              <tr>
+                <td> Tipo de mangueira</td>
+                <td>{product.hoseType}</td>
+              </tr>
+            )}
+
+            {product.cabo && (
+              <tr>
+                <td>Comprimento do cabo</td>
+                <td>{product.cabo}</td>
+              </tr>
+            )}
+
+            {product.uso && (
+              <tr>
+                <td>Uso indicado pelo fabricante</td>
+                <td>{product.uso}</td>
               </tr>
             )}
 
@@ -395,6 +454,12 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
+            {product.tensao && (
+              <tr>
+                <td>Tensão (V)</td>
+                <td>{product.tensao}</td>
+              </tr>
+            )}
 
 
             {product.type === 'parafuso' && (

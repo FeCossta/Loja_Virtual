@@ -100,7 +100,7 @@ function MainMenu() {
                         <a href="/equipamentos/carreteis" onClick={() => handleOptionClick('carretel-retratil')}>
                             Carretel Retrátil
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('lavadoras')}>
+                        <a href="/equipamentos/lavadoras" onClick={() => handleOptionClick('lavadoras')}>
                             Lavadoras
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('motobombas')}>
