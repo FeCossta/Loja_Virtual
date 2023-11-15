@@ -129,8 +129,8 @@ function MainMenu() {
                         <a href="/ferramentas/pneumaticas" onClick={() => handleOptionClick('ferramentas-pneumaticas')}>
                             Ferramentas Pneumáticas
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('ferramentas-manuais')}>
-                            Ferramentas Manuais
+                        <a href="/ferramentas/manuais" onClick={() => handleOptionClick('ferramentas-manuais')}>
+                            Ferramentas Manuais 
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('ferramentas-bancada-coluna')}>
                             Ferramentas de Bancada e Coluna
