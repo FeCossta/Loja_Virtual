@@ -74,7 +74,7 @@ const products = [
         id: 86,
         name: 'WAP L PROFI 2000 - 220V',
         description: 'Lavadora de alta pressão',
-        image: '../assets/Products/Equipamentos/eq20.png',
+        image: '../assets/Products/Equipamentos/eq28.png',
         link: '/equipamentos/wap-lprof-2000',
         type: 'Uso Intensivo'
     },

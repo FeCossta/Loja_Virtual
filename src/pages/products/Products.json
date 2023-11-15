@@ -2092,5 +2092,190 @@
     "pesoB": "33,6 kg",
     "pesoL": "27,2 kg",
     "op1": "FW006924 (220V)"
+  },
+
+  {
+    "id": 87,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 2010",
+    "type": "Kit manutenção preventiva",
+    "code":"N/I",
+    "image": "../assets/Products/Kit/k1G.jpg",
+    "link": "/manutencao-preventiva/srp-2010",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 2010",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0147-0",
+    "item2": "ELEMENTO FILTRO AR 007.0110-0",
+    "item3": "FILTRO ÓLEO 007.0115-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 88,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 2015",
+    "type": "Kit manutenção preventiva",
+    "code":"N/I",
+    "image": "../assets/Products/Kit/k2G.jpg",
+    "link": "/manutencao-preventiva/srp-2015",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 2015",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0147-0",
+    "item2": "ELEMENTO FILTRO AR 007.0110-0",
+    "item3": "FILTRO ÓLEO 007.0115-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+
+  {
+    "id": 89,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 2030",
+    "type": "Kit manutenção preventiva",
+    "code":"N/I",
+    "image": "../assets/Products/Kit/k3G.jpg",
+    "link": "/manutencao-preventiva/srp-2030",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 2030",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0148-0",
+    "item2": "ELEMENTO FILTRO AR 007.0110-0",
+    "item3": "FILTRO ÓLEO 007.0023-1",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 90,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 2040",
+    "type": "Kit manutenção preventiva",
+    "code":"N/I",
+    "image": "../assets/Products/Kit/k4G.jpg",
+    "link": "/manutencao-preventiva/srp-2040",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 2040",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0009-1",
+    "item2": "ELEMENTO FILTRO AR 007.0136-0",
+    "item3": "FILTRO ÓLEO 007.0144-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 91,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 2060",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k5G.jpg",
+    "link": "/manutencao-preventiva/srp-2060",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 2060",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0119-0",
+    "item2": "ELEMENTO FILTRO AR 007.0136-0",
+    "item3": "FILTRO ÓLEO 007.0109-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 92,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3030",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k6G.jpg",
+    "link": "/manutencao-preventiva/srp-3030",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3030",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0148-0",
+    "item2": "ELEMENTO FILTRO AR 007.0110-0",
+    "item3": "FILTRO ÓLEO 007.0023-1",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 93,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3040",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k7G.jpg",
+    "link": "/manutencao-preventiva/srp-3040",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3040",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0009-1",
+    "item2": "ELEMENTO FILTRO AR 007.0136-0",
+    "item3": "FILTRO ÓLEO 007.0144-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 94,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3050",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k8G.jpg",
+    "link": "/manutencao-preventiva/srp-3050",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3050",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0009-1",
+    "item2": "ELEMENTO FILTRO AR 007.0136-0",
+    "item3": "FILTRO ÓLEO 007.0109-0 / 007.3830-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+
+  {
+    "id": 95,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3060",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k9G.jpg",
+    "link": "/manutencao-preventiva/srp-3060",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3060",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0119-0",
+    "item2": "ELEMENTO FILTRO AR 007.0136-0",
+    "item3": "FILTRO ÓLEO 007.0109-0 / 007.3830-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 96,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3075",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k10G.jpg",
+    "link": "/manutencao-preventiva/srp-3075",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3075",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0119-0",
+    "item2": "ELEMENTO FILTRO AR 007.0130-6",
+    "item3": "FILTRO ÓLEO 007.0109-0 / 007.3830-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 97,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 3100",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k11G.jpg",
+    "link": "/manutencao-preventiva/srp-3100",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 3100",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 021.0184-0",
+    "item2": "ELEMENTO FILTRO AR PRIMÁRIO 007.0168-0",
+    "item3": "ELEMENTO FILTRO AR SECUNDÁRIO 007.0169-0",
+    "item4": "FILTRO ÓLEO 007.0383-0",
+    "item5": "ÓLEO*",
+    "item6": "Verificar o tipo de Óleo (mineral ou sintético)"
+  },
+  {
+    "id": 98,
+    "name": "Kit manutenção preventiva para compressor parafuso SRP 4005E",
+    "type": "Kit manutenção preventiva",
+     "code":"N/I",
+    "image": "../assets/Products/Kit/k12G.jpg",
+    "link": "/manutencao-preventiva/srp-4005e",
+    "aplicacao": "Kit Composto de peças originais SCHULZ para compressor parafuso SRP 4005E",
+    "item1": "ELEMENTO SEPARADOR AR/ÓLEO 007.0233-0",
+    "item2": "ELEMENTO FILTRO AR 830.1257-0",
+    "item3": "FILTRO ÓLEO 007.0177-0",
+    "item4": "ÓLEO*",
+    "item5": "Verificar o tipo de Óleo (mineral ou sintético)"
   }
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
 ]

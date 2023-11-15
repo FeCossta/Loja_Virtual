@@ -102,24 +102,19 @@ function MainMenu() {
                         </a>
                         <a href="/equipamentos/lavadoras" onClick={() => handleOptionClick('lavadoras')}>
                             Lavadoras
-                        </a>
-                        <a href="/error" onClick={() => handleOptionClick('motobombas')}>
-                            Motobombas
-                        </a>
+                        </a>                        
                     </div>
                 </li>
 
 
                 <li className={`menu-item ${selectedOption === 'pecas' ? 'active' : ''}`}>
                     <img src="https://testifying-6u5maumev-fe-costa.vercel.app/assets/menu/pecas.png" alt='Peças' className="icon" />
-                    <a href="/error" className='compress'>
-                        <span className="text">Peças</span>
-                    </a>
+                   
+                        <span className="text">Preventiva</span>
+                    
                     <div className="compressors-menu">
-                        <a href="/error" onClick={() => handleOptionClick('manutencao-corretiva')}>
-                            Manutenção Corretiva
-                        </a>
-                        <a href="/error" onClick={() => handleOptionClick('kit-manutencao-preventiva')}>
+                       
+                        <a href="/manutencao-preventiva" onClick={() => handleOptionClick('kit-manutencao-preventiva')}>
                             Kit Manutenção Preventiva
                         </a>
                     </div>
@@ -158,9 +153,6 @@ function MainMenu() {
                     <div className="compressors-menu">
                         <a href="/error" onClick={() => handleOptionClick('acessorios')}>
                             Acessórios
-                        </a>
-                        <a href="/equipamento/aspiradores" onClick={() => handleOptionClick('aspiradores-hobby')}>
-                            Aspiradores
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('pistolas-pintura')}>
                             Pistolas de Pintura

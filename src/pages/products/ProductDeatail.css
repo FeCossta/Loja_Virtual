@@ -45,7 +45,200 @@
   color: #fff;
   border: none;
   border-radius: 5px;
+  cursor: pointer;.ProductDetail {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-left: 45px;
+  gap: 10rem;
+}
+
+.ProductDetailImage img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.ProductDetailInfo {
+  width: 450px;
+  margin-left: 40px;
+}
+
+.ProductDetailInfo h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ProductDetailInfo p {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.ProductDetailInfo h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0077CC;
+  margin: 10px 0;
+}
+
+.ProductDetailInfo button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0077CC;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.ProductDetailInfo button:hover {
+  background-color: #002a58;
+}
+
+.ProductDetailInfo p:last-child {
+  margin-top: 20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.desc-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #002a58;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #ccc;
+}
+
+th {
+  background-color: #002a58;
+  color: white;
+}
+
+tr {
+  border-bottom: 1px dashed #ddd;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal input,
+.modal select,
+.modal textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal button {
+  background-color: #002a58;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.modal .closer {
+  opacity: 0.5;
+}
+
+.modal .closer:hover {
+  opacity: 1;
+}
+
+.modal button:hover {
+  background-color: #00143b;
+}
+
+.modal p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #777;
+}
+
+.contato a {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  border-bottom: 1px solid #002a58;
+  cursor: pointer;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.contato h1 {
+  color: #002a58;
+  padding-top: 50px;
+}
+
+.contato p {
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
   margin-bottom: 10px;
 }
 

@@ -26,6 +26,7 @@ import Inversoras from './pages/products/Inversoras'
 import MotoresCombustao from './pages/products/MotoresCombustao'
 import Carretel from './pages/products/Carretel'
 import Lavadoras from './pages/products/Lavadoras'
+import PreventivePage from './pages/PreventivePage'
 
 
 
@@ -137,6 +138,11 @@ const router = createBrowserRouter([
    element: <Lavadoras/>
   },
   
+  {
+    path:"/manutencao-preventiva",
+    element: <PreventivePage/>
+  },
+
   {
     path: "/compressores/produto-list",
     element: (

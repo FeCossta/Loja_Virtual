@@ -439,6 +439,70 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
+              {product.aplicacao && (
+                <tr>
+                  <td>Equipamento de aplicação</td>
+                  <td>{product.aplicacao}</td>
+                </tr>
+              )}
+
+              {product.item1 && (
+                <tr>
+                  <td>Conteúdo do kit</td>
+                  <td>{product.item1}</td>
+                </tr>
+                
+              )}
+              {product.item2 && (
+                <tr>
+                   <td>Conteúdo do kit</td>
+                  <td>{product.item2}</td>
+                </tr>
+                
+              )}
+              {product.item3 && (
+                <tr>
+                   <td>Conteúdo do kit</td>
+                  <td>{product.item3}</td>
+                </tr>
+                
+              )}
+              {product.item4 && (
+                <tr>
+                   <td>Conteúdo do kit</td>
+                  <td>{product.item4}</td>
+                </tr>
+                
+              )}
+              {product.item5 && (
+                <tr>
+                  <td>Conteúdo do kit</td>
+                  <td>{product.item5}</td>
+                </tr>
+                
+              )}
+              {product.item6 && (
+                <tr>
+                  <td>Conteúdo do kit</td>
+                  <td>{product.item6}</td>
+                </tr>
+                
+              )}
+              {product.item7 && (
+                <tr>
+                   <td>Conteúdo do kit</td>
+                  <td>{product.item7}</td>
+                </tr>
+                
+              )}
+              {product.item8 && (
+                <tr>
+                   <td>Conteúdo do kit</td>
+                  <td>{product.item8}</td>
+                </tr>
+                
+              )}
+
 
             {product.hz && (
               <tr>
