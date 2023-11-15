@@ -87,3 +87,17 @@
     width: 280px;
   }
  
+
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .more h3 {
+    font-size: 18px;
+  }
+  

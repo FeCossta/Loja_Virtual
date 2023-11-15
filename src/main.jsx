@@ -38,6 +38,9 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom'
+import FerramentasPage from './pages/FerramentasPage'
+import Pneumatics from './pages/products/Pneumatics'
+import KitFerramentas from './pages/products/KitFerramentas'
 
 
 const router = createBrowserRouter([
@@ -142,6 +145,28 @@ const router = createBrowserRouter([
     path:"/manutencao-preventiva",
     element: <PreventivePage/>
   },
+
+  {
+    path:"/ferramentas",
+    element: <FerramentasPage/>
+  },
+
+  {
+    path: "/ferramentas/pneumaticas",
+    element: <Pneumatics/>
+  },
+  
+  {
+    path: "/ferramentas/manuais",
+    element: <KitFerramentas/>
+  },
+
+
+
+
+
+
+
 
   {
     path: "/compressores/produto-list",

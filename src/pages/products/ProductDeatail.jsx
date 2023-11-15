@@ -19,7 +19,11 @@ const ProductDeatail = ({ product }) => {
     <>
       <div className="ProductDetail">
         <div className="ProductDetailImage">
-          <img src={product.image} alt={product.name} loading={product.image.loading || 'lazy'} />
+          <img
+            src={product.image}
+            alt={product.name}
+            loading={product.image.loading || 'lazy'}
+          />
         </div>
         <div className="ProductDetailInfo">
           <h1>{product.name}</h1>
@@ -29,6 +33,7 @@ const ProductDeatail = ({ product }) => {
           <button onClick={openModal}>Solicite um Orçamento</button>
         </div>
       </div>
+
 
 
       <div className="contato">
@@ -174,6 +179,68 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.fator}</td>
               </tr>
             )}
+
+            {product.length && (
+              <tr>
+                <td>Comprimento (mm)</td>
+                <td>{product.length}</td>
+              </tr>
+            )}
+            {product.Consumols && (
+              <tr>
+                <td>Consumo de Ar (l/s)</td>
+                <td>{product.Consumols}</td>
+              </tr>
+            )}
+            {product.consumoPcm && (
+              <tr>
+                <td>Consumo de Ar (pcm)</td>
+                <td>{product.consumoPcm}</td>
+              </tr>
+            )}
+            {product.dimHose && (
+              <tr>
+                <td>Diâmetro da Mangueira (pol.)</td>
+                <td>{product.dimHose}</td>
+              </tr>
+            )}
+            {product.squareFit && (
+              <tr>
+                <td>Encaixe Quadrado (pol.)</td>
+                <td>{product.squareFit}</td>
+              </tr>
+            )}
+            {product.airNiple && (
+              <tr>
+                <td>Entrada de Ar Niple (pol.)</td>
+                <td>{product.airNiple}</td>
+              </tr>
+            )}
+            {product.ruido && (
+              <tr>
+                <td>Nível de Ruído (dbA)</td>
+                <td>{product.ruido}</td>
+              </tr>
+            )}
+            {product.psi && (
+              <tr>
+                <td>Pressão de Trabalho (psi)</td>
+                <td>{product.psi}</td>
+              </tr>
+            )}
+            {product.rpm && (
+              <tr>
+                <td>Rotação Livre (rpm)</td>
+                <td>{product.rpm}</td>
+              </tr>
+            )}
+            {product.vibration && (
+              <tr>
+                <td>Vibração (m/s²)</td>
+                <td>{product.vibration}</td>
+              </tr>
+            )}
+
 
 
 
@@ -439,69 +506,111 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
-              {product.aplicacao && (
-                <tr>
-                  <td>Equipamento de aplicação</td>
-                  <td>{product.aplicacao}</td>
-                </tr>
-              )}
+            {product.aplicacao && (
+              <tr>
+                <td>Equipamento de aplicação</td>
+                <td>{product.aplicacao}</td>
+              </tr>
+            )}
 
-              {product.item1 && (
-                <tr>
-                  <td>Conteúdo do kit</td>
-                  <td>{product.item1}</td>
-                </tr>
-                
-              )}
-              {product.item2 && (
-                <tr>
-                   <td>Conteúdo do kit</td>
-                  <td>{product.item2}</td>
-                </tr>
-                
-              )}
-              {product.item3 && (
-                <tr>
-                   <td>Conteúdo do kit</td>
-                  <td>{product.item3}</td>
-                </tr>
-                
-              )}
-              {product.item4 && (
-                <tr>
-                   <td>Conteúdo do kit</td>
-                  <td>{product.item4}</td>
-                </tr>
-                
-              )}
-              {product.item5 && (
-                <tr>
-                  <td>Conteúdo do kit</td>
-                  <td>{product.item5}</td>
-                </tr>
-                
-              )}
-              {product.item6 && (
-                <tr>
-                  <td>Conteúdo do kit</td>
-                  <td>{product.item6}</td>
-                </tr>
-                
-              )}
-              {product.item7 && (
-                <tr>
-                   <td>Conteúdo do kit</td>
-                  <td>{product.item7}</td>
-                </tr>
-                
-              )}
-              {product.item8 && (
-                <tr>
-                   <td>Conteúdo do kit</td>
-                  <td>{product.item8}</td>
-                </tr>
-                
-              )}
+            {product.item1 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item1}</td>
+              </tr>
+
+            )}
+            {product.item2 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item2}</td>
+              </tr>
+
+            )}
+            {product.item3 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item3}</td>
+              </tr>
+
+            )}
+            {product.item4 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item4}</td>
+              </tr>
+
+            )}
+            {product.item5 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item5}</td>
+              </tr>
+
+            )}
+            {product.item6 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item6}</td>
+              </tr>
+
+            )}
+            {product.item7 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item7}</td>
+              </tr>
+
+            )}
+            {product.item8 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item8}</td>
+              </tr>
+
+            )}
+            {product.item9 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item9}</td>
+              </tr>
+
+            )}
+            {product.item10 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item8}</td>
+              </tr>
+
+            )}
+            {product.item11 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item11}</td>
+              </tr>
+
+            )}
+            {product.item12 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item12}</td>
+              </tr>
+
+            )}
+            {product.item13 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item13}</td>
+              </tr>
+
+            )}
+            {product.item14 && (
+              <tr>
+                <td>Conteúdo do kit</td>
+                <td>{product.item14}</td>
+              </tr>
+
+            )}
 
 
             {product.hz && (

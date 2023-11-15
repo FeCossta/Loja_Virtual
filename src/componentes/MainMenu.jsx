@@ -122,11 +122,11 @@ function MainMenu() {
 
                 <li className={`menu-item ${selectedOption === 'ferramentas' ? 'active' : ''}`}>
                     <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/ferramentas.png" alt='Ferramentas' className="icon" />
-                    <a href="/error" className='compress'>
+                    <a href="/ferramentas" className='compress'>
                         <span className="text">Ferramentas</span>
                     </a>
                     <div className="compressors-menu">
-                        <a href="/error" onClick={() => handleOptionClick('ferramentas-pneumaticas')}>
+                        <a href="/ferramentas/pneumaticas" onClick={() => handleOptionClick('ferramentas-pneumaticas')}>
                             Ferramentas Pneumáticas
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('ferramentas-manuais')}>
