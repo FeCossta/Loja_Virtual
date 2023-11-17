@@ -242,6 +242,120 @@ const ProductDeatail = ({ product }) => {
             )}
 
 
+            {product.furMm && (
+              <tr>
+                <td>Capacidade de Furação em aço (mm)</td>
+                <td>{product.furMm}</td>
+              </tr>
+            )}
+            {product.furPol && (
+              <tr>
+                <td>Capacidade de Furação em aço (pol)</td>
+                <td>{product.furPol}</td>
+              </tr>
+            )}
+            {product.depth && (
+              <tr>
+                <td>Profundidade de Furação (mm)</td>
+                <td>{product.depth}</td>
+              </tr>
+            )}
+            {product.fuso && (
+              <tr>
+                <td>Cone de Fuso</td>
+                <td>{product.fuso}</td>
+              </tr>
+            )}
+            {product.rpm60 && (
+              <tr>
+                <td>RPM 60Hz</td>
+                <td>{product.rpm60}</td>
+              </tr>
+            )}
+            {product.battery && (
+              <tr>
+                <td>Tipo de bateria</td>
+                <td>{product.battery}</td>
+              </tr>
+            )}
+            {product.batteryCap && (
+              <tr>
+                <td>Capacidade da bateria</td>
+                <td>{product.batteryCap}</td>
+              </tr>
+            )}
+            {product.batteryAut && (
+              <tr>
+                <td>Autonomia da bateria</td>
+                <td>{product.batteryAut}</td>
+              </tr>
+            )}
+            {product.charge && (
+              <tr>
+                <td>Tempo de carregamento</td>
+                <td>{product.charge}</td>
+              </tr>
+            )}
+            {product.select && (
+              <tr>
+                <td>Seletor de torque</td>
+                <td>{product.select}</td>
+              </tr>
+            )}
+            {product.torqueLvl && (
+              <tr>
+                <td>Nivel de torque</td>
+                <td>{product.torqueLvl}</td>
+              </tr>
+            )}
+            {product.velocity && (
+              <tr>
+                <td>Velocidades</td>
+                <td>{product.velocity}</td>
+              </tr>
+            )}
+            {product.velocityControl && (
+              <tr>
+                <td>Controlador de velocidade?</td>
+                <td>{product.velocityControl}</td>
+              </tr>
+            )}
+            {product.perfConc && (
+              <tr>
+                <td>Perfuração em concreto</td>
+                <td>{product.perfConc}</td>
+              </tr>
+            )}
+            {product.perfMad && (
+              <tr>
+                <td>Perfuração em Madeira</td>
+                <td>{product.perfMad}</td>
+              </tr>
+            )}
+            {product.perfMetal && (
+              <tr>
+                <td>Perfuração em Metal</td>
+                <td>{product.perfMetal}</td>
+              </tr>
+            )}
+            {product.reverse && (
+              <tr>
+                <td>Possui seletor de reverso?</td>
+                <td>{product.reverse}</td>
+              </tr>
+            )}
+            {product.led && (
+              <tr>
+                <td>LED para iluminação?</td>
+                <td>{product.led}</td>
+              </tr>
+            )}
+
+
+
+
+
+
 
 
 
@@ -407,6 +521,25 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.cabo}</td>
               </tr>
             )}
+            {product.corte && (
+              <tr>
+                <td>Capacidade de corte</td>
+                <td>{product.corte}</td>
+              </tr>
+            )}
+            {product.mandril && (
+              <tr>
+                <td>Mandril</td>
+                <td>{product.mandril}</td>
+              </tr>
+            )}
+            {product.lixa && (
+              <tr>
+                <td>Tamanho da Lixa (mm)</td>
+                <td>{product.lixa}</td>
+              </tr>
+            )}
+
 
             {product.uso && (
               <tr>

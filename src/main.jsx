@@ -27,6 +27,11 @@ import MotoresCombustao from './pages/products/MotoresCombustao'
 import Carretel from './pages/products/Carretel'
 import Lavadoras from './pages/products/Lavadoras'
 import PreventivePage from './pages/PreventivePage'
+import FerramentasPage from './pages/FerramentasPage'
+import Pneumatics from './pages/products/Pneumatics'
+import KitFerramentas from './pages/products/KitFerramentas'
+import Bancada from './pages/products/Bancada'
+import Eletricas from './pages/products/Eletricas'
 
 
 
@@ -38,9 +43,7 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom'
-import FerramentasPage from './pages/FerramentasPage'
-import Pneumatics from './pages/products/Pneumatics'
-import KitFerramentas from './pages/products/KitFerramentas'
+import Baterias from './pages/products/Baterias'
 
 
 const router = createBrowserRouter([
@@ -160,9 +163,19 @@ const router = createBrowserRouter([
     path: "/ferramentas/manuais",
     element: <KitFerramentas/>
   },
+{
+  path: "/ferramentas/bancada-e-coluna",
+  element: <Bancada/>
+},
 
-
-
+{
+  path: "/ferramentas/eletricas",
+  element: <Eletricas/>
+},
+{
+  path: "/ferramentas/ferramentas-de-baterias",
+  element: <Baterias/>
+},
 
 
 

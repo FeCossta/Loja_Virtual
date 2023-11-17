@@ -132,13 +132,13 @@ function MainMenu() {
                         <a href="/ferramentas/manuais" onClick={() => handleOptionClick('ferramentas-manuais')}>
                             Ferramentas Manuais 
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('ferramentas-bancada-coluna')}>
+                        <a href="/ferramentas/bancada-e-coluna" onClick={() => handleOptionClick('ferramentas-bancada-coluna')}>
                             Ferramentas de Bancada e Coluna
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('ferramentas-eletricas')}>
+                        <a href="/ferramentas/eletricas" onClick={() => handleOptionClick('ferramentas-eletricas')}>
                             Ferramentas Elétricas
                         </a>
-                        <a href="/error" onClick={() => handleOptionClick('ferramentas-bateria')}>
+                        <a href="/ferramentas/ferramentas-de-baterias" onClick={() => handleOptionClick('ferramentas-bateria')}>
                             Ferramentas a Bateria
                         </a>
                     </div>

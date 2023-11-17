@@ -27,7 +27,7 @@ const products = [
         name: 'Ferramentas De Bancada e Coluna',
         description: 'Ferramentas De Bancada e Coluna',
         image: '../assets/Products/Ferramentas/product3.jpg',
-        link: '/ferramentas/de-bancada-e-coluna',
+        link: '/ferramentas/bancada-e-coluna',
         type: 'Ferramentas De Bancada e Coluna'
     },
     {
@@ -43,7 +43,7 @@ const products = [
         name: 'Ferramentas De Bateria',
         description: 'Ferramentas De Bateria',
         image: '../assets/Products/Ferramentas/product5.png',
-        link: '/ferramentas/de-baterias',
+        link: '/ferramentas/ferramentas-de-baterias',
         type: 'Ferramentas De Bateria'
     },
 
