@@ -44,6 +44,8 @@ import {
   Route,
 } from 'react-router-dom'
 import Baterias from './pages/products/Baterias'
+import HobbyPage from './pages/HobbyPage'
+import Pintura from './pages/products/Pintura'
 
 
 const router = createBrowserRouter([
@@ -178,6 +180,15 @@ const router = createBrowserRouter([
 },
 
 
+{
+  path: "/hobby-e-residencial",
+  element: <HobbyPage/>
+},
+
+{
+  path: "/hobby/material-de-pintura",
+  element: <Pintura/>
+},
 
 
 

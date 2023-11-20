@@ -302,6 +302,13 @@ const ProductDeatail = ({ product }) => {
                 <td>{product.select}</td>
               </tr>
             )}
+
+            {product.viscosidade && ( 
+              <tr>
+                <td>Viscosidade Máxima</td>
+                <td>{product.viscosidade}</td>
+              </tr>
+            )}
             {product.torqueLvl && (
               <tr>
                 <td>Nivel de torque</td>

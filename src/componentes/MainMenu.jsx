@@ -147,15 +147,12 @@ function MainMenu() {
 
                 <li className={`menu-item ${selectedOption === 'hobby' ? 'active' : ''}`}>
                     <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/hobby.png" alt='Hobby e Residencial' className="icon" />
-                    <a href="/error" className='compress'>
+                    <a href="/hobby-e-residencial" className='compress'>
                         <span className="text">Hobby e Residencial</span>
                     </a>
-                    <div className="compressors-menu">
-                        <a href="/error" onClick={() => handleOptionClick('acessorios')}>
-                            Acessórios
-                        </a>
-                        <a href="/error" onClick={() => handleOptionClick('pistolas-pintura')}>
-                            Pistolas de Pintura
+                    <div className="compressors-menu">                       
+                        <a href="/hobby/material-de-pintura" onClick={() => handleOptionClick('pistolas-pintura')}>
+                            Material de pintura
                         </a>
                         <a href="/error" onClick={() => handleOptionClick('jardinagem')}>
                             Jardinagem
