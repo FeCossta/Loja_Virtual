@@ -102,7 +102,10 @@ function MainMenu() {
                         </a>
                         <a href="/equipamentos/lavadoras" onClick={() => handleOptionClick('lavadoras')}>
                             Lavadoras
-                        </a>                        
+                        </a>     
+                        <a href="/equipamentos/equipamentos-de-jardinagem" onClick={() => handleOptionClick('jardinagem')}>
+                            Jardinagem
+                        </a>                   
                     </div>
                 </li>
 
@@ -141,24 +144,12 @@ function MainMenu() {
                         <a href="/ferramentas/ferramentas-de-baterias" onClick={() => handleOptionClick('ferramentas-bateria')}>
                             Ferramentas a Bateria
                         </a>
-                    </div>
-                </li>
-
-
-                <li className={`menu-item ${selectedOption === 'hobby' ? 'active' : ''}`}>
-                    <img src="https://testifying-8nzh09jmn-fe-costa.vercel.app/assets/menu/hobby.png" alt='Hobby e Residencial' className="icon" />
-                    <a href="/hobby-e-residencial" className='compress'>
-                        <span className="text">Hobby e Residencial</span>
-                    </a>
-                    <div className="compressors-menu">                       
-                        <a href="/hobby/material-de-pintura" onClick={() => handleOptionClick('pistolas-pintura')}>
-                            Material de pintura
-                        </a>
-                        <a href="/error" onClick={() => handleOptionClick('jardinagem')}>
-                            Jardinagem
+                        <a href="/ferramentas/material-de-pintura" onClick={() => handleOptionClick('pistolas-pintura')}>
+                            Ferramentas de pintura
                         </a>
                     </div>
                 </li>
+
 
             </ul>
         </div >

@@ -6,7 +6,7 @@ function SobreNos() {
     return (
         <>
             <section className="about-us">
-                <div>
+                <div id='sobre-nos'>
                     <div className="about-us-content">
                         <div className="about-us-logo">
                             <img src="https://testifying-nbfc5lxc9-fe-costa.vercel.app/assets/us/logo.png" alt="Logo da empresa" />
@@ -23,7 +23,7 @@ function SobreNos() {
                             </div>
 
                             <a href="/error" className="saibaMais">
-                                <span>Saiba mais <FaPlusCircle style={{ verticalAlign: 'middle' }} /></span>
+                                <span>Saiba mais Sobre nossos serviços <FaPlusCircle style={{ verticalAlign: 'middle' }} /></span>
                             </a>
                         </div>
                     </div>

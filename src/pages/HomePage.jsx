@@ -35,7 +35,7 @@ function App() {
       <main className="App-main">
       <MainMenu/>
       <Banner/>
-      <div className="sacTopo">
+      <div className="sacTopo" id='/sobre-nos'>
         <div className="blocks">
           <div className="block">
             <a href="/contato">

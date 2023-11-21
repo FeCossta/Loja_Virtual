@@ -152,6 +152,13 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
+            {product.tanqueOil && (
+              <tr>
+                <td>Cap. tanque de óleo</td>
+                <td>{product.tanqueOil}</td>
+              </tr>
+            )}
+
             {product.aspmh && (
               <tr>
                 <td>Aspiração ar (m³/hora)</td>
@@ -559,6 +566,33 @@ const ProductDeatail = ({ product }) => {
               <tr>
                 <td>Volume do Combustível</td>
                 <td>{product.volComb}</td>
+              </tr>
+            )}
+
+            {product.calibre && (
+              <tr>
+                <td>Corrente - Calibre - Passo</td>
+                <td>{product.calibre}</td>
+              </tr>
+            )}
+            {product.mix && (
+              <tr>
+                <td>Mistura de óleo/gasolina</td>
+                <td>{product.mix}</td>
+              </tr>
+            )}
+
+            {product.sabre && (
+              <tr>
+                <td>Sabre</td>
+                <td>{product.sabre}</td>
+              </tr>
+            )}
+
+            {product.lamina && (
+              <tr>
+                <td>Lamina</td>
+                <td>{product.lamina}</td>
               </tr>
             )}
 

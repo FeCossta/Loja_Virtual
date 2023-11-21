@@ -32,6 +32,10 @@ import Pneumatics from './pages/products/Pneumatics'
 import KitFerramentas from './pages/products/KitFerramentas'
 import Bancada from './pages/products/Bancada'
 import Eletricas from './pages/products/Eletricas'
+import Baterias from './pages/products/Baterias'
+import Pintura from './pages/products/Pintura'
+import Jardinagem from './pages/products/Jardinagem'
+
 
 
 
@@ -43,9 +47,6 @@ import {
   RouterProvider,
   Route,
 } from 'react-router-dom'
-import Baterias from './pages/products/Baterias'
-import HobbyPage from './pages/HobbyPage'
-import Pintura from './pages/products/Pintura'
 
 
 const router = createBrowserRouter([
@@ -145,6 +146,11 @@ const router = createBrowserRouter([
    path: "/equipamentos/lavadoras",
    element: <Lavadoras/>
   },
+
+  {
+    path: "/equipamentos/equipamentos-de-jardinagem",
+    element: <Jardinagem/>
+  },
   
   {
     path:"/manutencao-preventiva",
@@ -181,14 +187,10 @@ const router = createBrowserRouter([
 
 
 {
-  path: "/hobby-e-residencial",
-  element: <HobbyPage/>
-},
-
-{
-  path: "/hobby/material-de-pintura",
+  path: "/ferramentas/ferramentas-de-pintura",
   element: <Pintura/>
 },
+
 
 
 

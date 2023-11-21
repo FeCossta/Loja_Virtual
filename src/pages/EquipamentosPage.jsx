@@ -60,7 +60,14 @@ const products = [
         type: 'Lavadoras'
     },
     
-    
+    {
+        id: 22,
+        name: 'Jardinagem',
+        description: 'Equipamentos de Jardinagem',
+        image: './assets/Products/Hobby/hb13.jpg',
+        link: '/equipamentos/equipamentos-de-jardinagem',
+        type: 'Equipamentos de Jardinagem'
+    },
 ];
 
 

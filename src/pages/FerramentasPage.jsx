@@ -46,6 +46,14 @@ const products = [
         link: '/ferramentas/ferramentas-de-baterias',
         type: 'Ferramentas De Bateria'
     },
+    {
+        id: 21,
+        name: 'Material de pintura',
+        description: 'Material de pintura',
+        image: '../assets/Products/Hobby/hb2.png',
+        link: '/ferramentas/ferramentas-de-pintura',
+        type: 'Material de pintura'
+    },
 
 ]
 
