@@ -29,6 +29,62 @@ const products = [
         link: '/equipamentos/saco-coletor',
         type: 'Aspiradores'
     },
+    {
+      id:144,
+      name: 'WAP GTW INOX 15',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq29.png',
+      link: '/equipamentos/wap-gtw-inox-15',
+      type: 'Aspiradores'
+    },
+    {
+      id:145,
+      name: 'WAP GTW INOX 20',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq30.png',
+      link: '/equipamentos/wap-gtw-inox-20',
+      type: 'Aspiradores'
+    },
+    {
+      id:146,
+      name: 'WAP GTW INOX 12',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq31.png',
+      link: '/equipamentos/wap-gtw-inox-12',
+      type: 'Aspiradores'
+    },
+    {
+      id:147,
+      name: 'WAP GTW INOX 50',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq32.png',
+      link: '/equipamentos/wap-gtw-inox-50',
+      type: 'Aspiradores'
+    },
+    {
+      id:148,
+      name: 'WAP GTW INOX 70 DUO',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq33.png',
+      link: '/equipamentos/wap-gtw-inox-70-duo',
+      type: 'Aspiradores'
+    },
+    {
+      id:149,
+      name: 'WAP GTW 55',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq34.png',
+      link: '/equipamentos/wap-gtw-55',
+      type: 'Aspiradores'
+    },
+    {
+      id:150,
+      name: 'WAP GTW 20',
+      description: 'Aspiradores',
+      image: '../assets/Products/Equipamentos/eq35.png',
+      link: '/equipamentos/wap-gtw-20',
+      type: 'Aspiradores'
+    }
 
 ]
 

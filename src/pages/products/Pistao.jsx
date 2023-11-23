@@ -108,6 +108,35 @@ const products = [
       link: '/compressores/bravocsl15br200',
       
     }, 
+
+    {
+      id: 140,
+      name: "CMV 10/100",
+      description: "COMPRESSOR DE AR PISTÃO",
+      image: '../assets/Products/Compressores/pistao/pist43.jpg',
+      link: '/compressores/motomil-cmv-10100'
+    },
+    {
+      id: 141,
+      name: "CMV 10/150",
+      description: "COMPRESSOR DE AR PISTÃO",
+      image: '../assets/Products/Compressores/pistao/pist44.jpg',
+      link: '/compressores/motomil-cmv-10150'
+    },
+    {
+      id: 142,
+      name: "CMV-10PL/100A",
+      description: "COMPRESSOR DE AR PISTÃO",
+      image: '../assets/Products/Compressores/pistao/pist45.jpg',
+      link: '/compressores/motomil-cmv-10pl-100a'
+    },
+    {
+      id: 143,
+      name: "CMV 10PL/150A",
+      description: "COMPRESSOR DE AR PISTÃO",
+      image: '../assets/Products/Compressores/pistao/pist45.jpg',
+      link: '/compressores/motomil-cmv-10pl-150a'
+    }
 ];
 
 

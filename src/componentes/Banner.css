@@ -71,7 +71,7 @@
     transform: translateY(-50%);
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     .banner {
       max-width: 380px;
       max-height: 250px;

@@ -159,7 +159,7 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
-            {product.aspmh && (
+            {product.aspmh && ( 
               <tr>
                 <td>Aspiração ar (m³/hora)</td>
                 <td>{product.aspmh}</td>
@@ -495,6 +495,19 @@ const ProductDeatail = ({ product }) => {
 
             }
 
+            {product.whaterSuc && ( 
+              <tr>
+                <td>Aspira água?</td>
+                <td>{product.whaterSuc}</td>
+              </tr>
+            )}
+
+            {product.void && (
+              <tr>
+                <td>Vácuo</td>
+                <td>{product.void}</td>
+              </tr>
+            )}
             {product.cv && (
               <tr>
                 <td>Potência Máxima do Motor (CV)</td>

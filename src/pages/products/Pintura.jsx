@@ -78,10 +78,10 @@ const products = [
     },
     {
         id: 130,
-        name: 'LPL-750',
-        description: 'LIXADEIRA PAREDE LED COM ASPIRAÇÃO',
-        image: '../assets/Products/Hobby/hb11.png',
-        link: '/ferramentas/lixadeira-de-parede-com-led-lpl750',
+        name: 'DL-6000',
+        description: 'DESEMPENADEIRA LYNUS',
+        image: '../assets/Products/Hobby/hb11.jpg',
+        link: '/ferramentas/desempenadeira-dl6000',
     },
     {
         id: 131,

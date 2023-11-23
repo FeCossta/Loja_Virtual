@@ -68,3 +68,10 @@
     width: 280px;
     margin-left: 45px;
   }
+
+  @media screen and (max-width: 500px) {
+    .product {
+        width: calc(50% - 20px); 
+        max-width: none; 
+    }
+  } 

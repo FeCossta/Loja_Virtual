@@ -3,15 +3,88 @@
   border-radius: 15px;
   margin-bottom: 30px;
   color: #002a58;
-  padding: 0; 
-  height: 40px; 
+  padding: 0;
+  height: 40px;
   transition: transform 0.3s;
   border: 1px solid #002a58;
   text-align: center;
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   justify-content: center;
-} 
+}
+
+.mobile-menu-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  border: 1px solid #011b2e;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #ffbc09;
+  max-width: 300px;
+  justify-content: center;
+  margin: 20px auto 20px;
+  color: #011b2e;
+  font-weight: bold;
+}
+
+.mobile-menu-button div {
+  width: 30px;
+  height: 3px;
+  background-color: #002a58;
+  transition: 0.4s;
+}
+
+
+.mobile-menu {
+  display: none;
+  z-index: 100; 
+}
+
+.mobile-menu-options {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 300px; 
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 101;
+  border: 1px solid #011b2e;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.mobile-menu.open .mobile-menu-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.mobile-menu-options a {
+  padding: 10px;
+  text-decoration: none;
+  color: #002a58;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+
+.mobile-menu-options a:hover {
+  background-color: #ffbc09;
+}
+
+
+.mobile-menu-close:hover {
+  color: #ffbc09;
+}
+
 
 .main-menu.sticky {
   position: fixed;
@@ -39,7 +112,7 @@
   align-items: center;
   gap: .6rem;
   color: #002a58;
-} 
+}
 
 .main-menu li:hover {
   text-decoration: underline;
@@ -57,21 +130,21 @@
 
 .home {
   font-size: 30px;
-  
-  
+
+
 }
 
-.home a{
+.home a {
   text-decoration: none;
   color: #002a58;
   border-right: 1px solid rgba(0, 0, 255, 0.2);
   padding-right: 30px;
-  
+
 }
 
 .main-menu a {
   text-decoration: none;
-} 
+}
 
 .main-menu .menu-item {
   position: relative;
@@ -79,12 +152,14 @@
 
 .compress {
   text-decoration: none;
-  
+
 }
-.compress:hover{
+
+.compress:hover {
   text-decoration: underline;
   color: #0077CC;
 }
+
 .main-menu .compressors-menu {
   background-color: transparent;
   position: absolute;
@@ -92,7 +167,7 @@
   left: 0;
   background: #fff;
   border: 1px solid #002a58;
-  border-top: none;  
+  border-top: none;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -105,12 +180,13 @@
   opacity: 1;
   pointer-events: auto;
 }
-.compressors-menu{
+
+.compressors-menu {
   color: #0077CC;
 }
 
 .main-menu .menu-item .compressors-menu a {
-  padding: 7px; 
+  padding: 7px;
   display: block;
   font-size: 15px;
   color: #002a58;
@@ -120,63 +196,34 @@
 }
 
 .main-menu .menu-item .compressors-menu a:hover {
-  background-color: #ffbc09; 
+  background-color: #ffbc09;
 }
 
 .main-menu .compressors-menu a:hover {
-  background-color: transparent; 
+  background-color: transparent;
 }
 
-@media screen and (max-width: 480px) {
- .main-menu {
-  max-width: 470px;
- }
-  .main-menu li span {
-    display: none; 
+@media screen and (max-width: 500px) {
+  .main-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-menu.open .mobile-menu-button div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .mobile-menu.open .mobile-menu-button div:nth-child(2) {
+    opacity: 1;
+    transform: translateY(0);
     
   }
-  .main-menu li {
-    margin: 0 8px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .6rem;
-    color: #002a58;
+  
+
+  .mobile-menu.open .mobile-menu-button div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
-
-  .main-menu .menu-item:hover .compressors-menu {
-    display: none;
 }
-.main-menu .menu-item .compressors-menu {
-    display: none;
-}
-
-.main-menu .menu-item.active .compressors-menu {
-    display: block; 
-}
-
-.main-menu .menu-item .compressors-menu a {
-    padding: 5px; 
-    display: block;
-    color: #002a58;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.main-menu .menu-item .compressors-menu a:hover {
-    background-color: transparent; 
-}
-
-.main-menu .menu-item .compress .text {
-  display: none;
-}
-
-.main-menu .menu-item.active .compress .text {
-  display: block; 
-}
-}
-
-
-
-
