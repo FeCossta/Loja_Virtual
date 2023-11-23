@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Jet.css"
 import Navbar from '../../componentes/Navbar';
 import MainMenu from '../../componentes/MainMenu';
 import Footer from '../../componentes/Footer';

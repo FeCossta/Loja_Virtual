@@ -28,6 +28,14 @@
   color: #015baf;
 }
 
+.prevent-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+  color: #015baf;
+}
+
 .pistao-product {
   border-radius: 15px;
   width: calc(50% - 20px);
@@ -103,4 +111,9 @@
       width: calc(50% - 20px); 
       max-width: none; 
   }
+
+  .prevent-title{
+    font-size: 12px;
+  }
+  
 }

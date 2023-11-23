@@ -7,7 +7,7 @@ import Footer from '../componentes/Footer'
 const products = [
     {
         id: 87,
-        name: 'KIT MANUTENÇÃO PREVENTIVA PARA COMPRESSOR PARAFUSO SRP 2010 ',
+        name: ' PREVENTIVA SRP 2010 ',
         description: 'Kit de manutenção preventiva',
         image: './assets/Products/Kit/k1.jpg',
         link: '/manutencao-preventiva/srp-2010',
@@ -15,7 +15,7 @@ const products = [
     },
     {
         id: 88,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 2015 ',
+        name: ' preventiva SRP 2015 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k2.jpg',
         link: '/manutencao-preventiva/srp-2015',
@@ -23,7 +23,7 @@ const products = [
     },
     {
         id: 89,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 2030 ',
+        name: ' preventiva SRP 2030 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k3.jpg',
         link: '/manutencao-preventiva/srp-2030',
@@ -31,7 +31,7 @@ const products = [
     },
     {
         id: 90,
-        name: ' Kit manutenção preventiva para compressor parafuso SRP 2040',
+        name: '  preventiva SRP 2040',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k4.jpg',
         link: '/manutencao-preventiva/srp-2040',
@@ -39,7 +39,7 @@ const products = [
     },
     {
         id: 91,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 2060 ',
+        name: ' preventiva SRP 2060 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k5.jpg',
         link: '/manutencao-preventiva/srp-2060',
@@ -47,7 +47,7 @@ const products = [
     },
     {
         id: 92,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 3030 ',
+        name: ' preventiva SRP 3030 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k6.jpg',
         link: '/manutencao-preventiva/srp-3030',
@@ -55,7 +55,7 @@ const products = [
     },
     {
         id: 93,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 3040 ',
+        name: ' preventiva SRP 3040 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k7.jpg',
         link: '/manutencao-preventiva/srp-3040',
@@ -63,7 +63,7 @@ const products = [
     },
     {
         id: 94,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 3050 ',
+        name: ' preventiva SRP 3050 ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k8.jpg',
         link: '/manutencao-preventiva/srp-3050',
@@ -71,7 +71,7 @@ const products = [
     },
     {
         id: 95,
-        name: ' Kit manutenção preventiva para compressor parafuso SRP 3060',
+        name: '  preventiva SRP 3060',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k9.jpg',
         link: '/manutencao-preventiva/srp-3060',
@@ -79,7 +79,7 @@ const products = [
     },
     {
         id: 96,
-        name: ' Kit manutenção preventiva para compressor parafuso SRP 3075',
+        name: '  preventiva SRP 3075',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k10.jpg',
         link: '/manutencao-preventiva/srp-3075',
@@ -87,7 +87,7 @@ const products = [
     },
     {
         id: 97,
-        name: ' Kit manutenção preventiva para compressor parafuso SRP 3100',
+        name: '  preventiva SRP 3100',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k11.jpg',
         link: '/manutencao-preventiva/srp-3100',
@@ -95,7 +95,7 @@ const products = [
     },
     {
         id: 98,
-        name: 'Kit manutenção preventiva para compressor parafuso SRP 4005E ',
+        name: ' preventiva SRP 4005E ',
         description: 'Kit de manutenção preventiva ',
         image: './assets/Products/Kit/k12.jpg',
         link: '/manutencao-preventiva/srp-4005e',
@@ -117,9 +117,9 @@ const PreventivePage = () => {
                 <a href="/"><img src="https://testifying-nbfc5lxc9-fe-costa.vercel.app/assets/img/LogoManuteec-1.png" /> </a>
             </div>
             <MainMenu />
-            <div className='title'>
+            <div className='prevent-title'>
                 <h1>
-                    Kits para manutenção preventiva
+                    Kits de manutenção preventiva
                 </h1>
 
             </div>
