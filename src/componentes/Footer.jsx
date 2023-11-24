@@ -9,30 +9,22 @@ function Footer() {
                 <div className="footer-column">
                     <p>Institucional</p>
                     <ul className="footer-links">
-                        <li><a href="/error">Sobre nós</a></li>
-                        <li><a href="/error">Loja física</a></li>
-                        <li><a href="/error">Produtos</a></li>
-                        <li><a href="/error">Serviços</a></li>
-                        <li><a href="/contato">Contato</a></li> 
+                        <li><a href="/#sobre-nos">Sobre nós</a></li>
+                        <li><a href="/services">Serviços</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                      
                     </ul>
                 </div>
-                <div className="footer-column">
-                    <p>Dúvidas</p>
-                    <ul className="footer-links">
-                        <li><a href="/error">FAQ</a></li>
-                        <li><a href="/error">Termos de uso</a></li>
-                        <li><a href="/error">Politica de devolução e troca</a></li>
-                        <li><a href="/error">Como comprar</a></li>
-                        <li><a href="/error">Lei de proteção de Dados</a></li>
-                    </ul>
-                </div>
-                <div className="footer-column" id="contato"> 
+                <div className="footer-column" id="contato">
                     <p>Atendimento</p>
                     <ul className="footer-links">
                         <li><FaPhoneAlt /><span> ( 21 ) 97039-3605</span></li>
                         <li><FaWhatsapp /> <span><a href="https://api.whatsapp.com/send?phone=5521970397632">(21) 970397632</a></span></li>
                         <li><FaMailBulk /><span> contato@manutecengenharia.com</span></li>
-                        <li>Horário: <span>De Segunda à Sexta-feira das 08h às 18h.<br/> Exceto em feriados.</span></li>
+                        <li>comercial@manutecengenharia.com</li>
+                        <li>Horário: </li>
+                        <li><span>De Segunda à Sexta-feira das 08h às 18h.</span></li>
+                        <li> Exceto em feriados.</li>
                     </ul>
                 </div>
             </div>

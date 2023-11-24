@@ -26,8 +26,8 @@ const Services = () => {
         } else if (service === 'Serviços Técnicos Fora da Garantia') {
             setSelectedService({
                 title: 'Serviços Técnicos Fora da Garantia',
-                terms: 'Após a avaliação do equipamento, estaremos gerando um orçamento para manutenção do mesmo, somente em caso de aprovação do orçamento, serão abatidos os R$ 100 cobrados na avaliação',
-                description: 'É cobrado uma taxa de avaliação de R$100, prazo legal de 30 dias corridos para devolução do equipamento.',
+                terms: 'Após a avaliação do equipamento, estaremos gerando um orçamento para manutenção do mesmo, somente em caso de aprovação do orçamento, será abatido a taxa cobrada na avaliação',
+                description: 'É cobrado uma taxa de avaliação, temos um prazo legal de 30 dias corridos para devolução do equipamento.',
 
             });
         }
