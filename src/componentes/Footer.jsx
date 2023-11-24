@@ -32,7 +32,7 @@ function Footer() {
                         <li><FaPhoneAlt /><span> ( 21 ) 97039-3605</span></li>
                         <li><FaWhatsapp /> <span><a href="https://api.whatsapp.com/send?phone=5521970397632">(21) 970397632</a></span></li>
                         <li><FaMailBulk /><span> contato@manutecengenharia.com</span></li>
-                        <li>Horário <span>De Segunda à Sexta-feira das 08h às 18h.<br/> Exceto em feriados.</span></li>
+                        <li>Horário: <span>De Segunda à Sexta-feira das 08h às 18h.<br/> Exceto em feriados.</span></li>
                     </ul>
                 </div>
             </div>

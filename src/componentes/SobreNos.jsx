@@ -22,7 +22,7 @@ function SobreNos() {
                                 <p>Com 13 anos de experiência, estamos prontos para oferecer as melhores soluções em compressores de ar e equipamentos de diversas marcas, sempre com um atendimento personalizado, adaptado a cada solicitação.</p>
                             </div>
 
-                            <a href="/error" className="saibaMais">
+                            <a href="/services" className="saibaMais">
                                 <span>Saiba mais Sobre nossos serviços <FaPlusCircle style={{ verticalAlign: 'middle' }} /></span>
                             </a>
                         </div>

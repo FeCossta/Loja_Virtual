@@ -73,7 +73,7 @@
 
   @media screen and (max-width: 500px) {
     .banner {
-      max-width: 380px;
-      max-height: 250px;
+      max-width: auto;
+      max-height: auto;
     }
   }

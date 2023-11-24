@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
-
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 import Navbar from '../componentes/Navbar';
@@ -15,6 +16,20 @@ import Footer from '../componentes/Footer';
 
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const hash = location.hash;
+    if (hash) {
+      const targetElement = document.querySelector(hash);
+      if (targetElement) {
+       
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location.hash]);
+
+
   window.onscroll = function () {
     const button = document.getElementById("back-to-top");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

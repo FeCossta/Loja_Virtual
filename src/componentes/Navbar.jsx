@@ -8,8 +8,8 @@ function Navbar() {
       <div className="menu">
         <ul>
           <li><a href="/">Início</a></li>
-          <li><a href="/error">Sobre nós</a></li>
-          <li><a href="/error">Serviços</a></li>
+          <li><a href="/#sobre-nos">Sobre nós</a></li>
+          <li><a href="/services">Serviços</a></li>
           <li><a href="/contato">Contato</a></li>
         </ul>
       </div>

@@ -9,10 +9,7 @@ const ActionHeader = () => {
           <a href="/"><img src="https://testifying-nbfc5lxc9-fe-costa.vercel.app/assets/img/LogoManuteec-1.png" alt="Logo da Empresa" /></a>
     
           
-          <span className="searchBar">
-          <input type="text" placeholder="Pesquisar produtos" />
-          <button name="Search" aria-label="Search" ><FaSearch/></button>
-          </span>
+
         </div>
       );
   

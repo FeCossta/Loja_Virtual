@@ -2880,7 +2880,7 @@
     "type": "MOTOSSERRA",
     "code": "N/I",
     "image": "../assets/Products/Hobby/hb13G.jpg",
-    "link": "/equipamentos/motosserra-mly-55cc",
+    "link": "/equipamentos/motosserra-mly-55cc", 
     "manufacturer": "Lynus",
     "tanque": "550ml",
     "tanqueOil": "260m",

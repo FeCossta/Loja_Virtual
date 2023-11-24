@@ -35,7 +35,7 @@ import Eletricas from './pages/products/Eletricas'
 import Baterias from './pages/products/Baterias'
 import Pintura from './pages/products/Pintura'
 import Jardinagem from './pages/products/Jardinagem'
-
+import Services from './pages/Services'
 
 
 
@@ -57,6 +57,10 @@ const router = createBrowserRouter([
   {
     path: "/contato",
     element: <Contato />,
+  },
+  {
+    path: "/services",
+    element: <Services/>
   },
   {
     path: "/error",
