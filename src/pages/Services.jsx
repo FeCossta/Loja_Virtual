@@ -20,7 +20,7 @@ const Services = () => {
             setSelectedService({
                 title: 'Serviços em Garantia',
                 description: 'Serviços em garantia para as marcas parceiras.',
-                entryRequirements: 'É necessário que: o equipamento esteja com todos os seus acessórios, o produto deve estar dentro do prazo de garantia estabelecido pelo FABRICANTE e estar portando a Nota Fiscal',
+                entryRequirements: 'É necessário que o equipamento esteja com todos os seus acessórios, o produto deve estar dentro do prazo de garantia estabelecido pelo FABRICANTE e estar portando a Nota Fiscal',
                 terms: 'O prazo legal para devolução do equipamento é de até 30 dias corridos.'
             });
         } else if (service === 'Serviços Técnicos Fora da Garantia') {
