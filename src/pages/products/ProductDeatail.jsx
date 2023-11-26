@@ -5,12 +5,12 @@ const ProductDeatail = ({ product }) => {
   const [showModal, setShowModal] = useState(false);
 
   const [productName, setProductName] = useState('');
-  const openModal = () => {
+  const openModalDetail = () => {
     setShowModal(true);
     setProductName(product.name);
   };
 
-  const closeModal = () => {
+  const closeModalDetail = () => {
     setShowModal(false);
   };
 
@@ -30,7 +30,7 @@ const ProductDeatail = ({ product }) => {
           <p>Código do Produto: {product.code}</p>
           <p>Fabricante: {product.manufacturer}</p>
           <h1>VALOR SOB CONSULTA</h1>
-          <button onClick={openModal}>Solicite um Orçamento</button>
+          <button onClick={openModalDetail}>Solicite um Orçamento</button>
         </div>
       </div>
 
@@ -856,7 +856,7 @@ const ProductDeatail = ({ product }) => {
 
 
       {showModal && (
-        <div className="modal">
+        <div className="modal-detail">
           <h2>Solicite um Orçamento</h2>
           <form action="https://formspree.io/f/mbjvbzea" method="POST">
             <input type="hidden" name="Produto" value={productName} />
@@ -882,7 +882,7 @@ const ProductDeatail = ({ product }) => {
             <p>* Preencha seus dados no formulário acima que entraremos em contato com o orçamento do produto.</p>
             <button type="submit">Enviar</button>
           </form>
-          <button className='closer' onClick={closeModal}>Fechar</button>
+          <button className='closer' onClick={closeModalDetail}>Fechar</button>
         </div>
       )}
     </>

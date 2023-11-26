@@ -58,8 +58,8 @@ const Services = () => {
             </div>
 
             {isModalOpen && (
-                <div className="modal" onClick={closeModal}>
-                    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                <div className="service-mod" onClick={closeModal}>
+                    <div className="service-mod-content" onClick={(e) => e.stopPropagation()}>
                         <h2>{selectedService.title}</h2>
                         <p>{selectedService.description}</p>
                         <p>{selectedService.terms}</p>
