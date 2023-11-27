@@ -46,7 +46,12 @@ const Services = () => {
                 <a href="/"><img src="https://testifying-nbfc5lxc9-fe-costa.vercel.app/assets/img/LogoManuteec-1.png" /> </a>
             </div>
             <MainMenu />
-
+            <div className="title-service">
+                <h1>Serviços oferecidos pela Manutec</h1>
+            </div>
+            <div className="subtitle">
+                <p className='subtitle-paragraph'>A Manutec hoje oferece dois tipos de serviços. O primeiro refere-se aos serviços em garantia destinados às marcas parceiras, enquanto o segundo abrange os serviços fora de garantia.<br/> Esta última categoria engloba equipamentos que não se enquadram na garantia ou nos casos em que o cliente opta por não acioná-la.<br/> Nesse contexto, realizamos uma ampla gama de manutenções, sejam elas preventivas ou corretivas.<br/> Para obter mais detalhes sobre os serviços disponíveis, consulte as informações nos cards abaixo:</p>
+            </div>
             <div className="services-container">
                 <div className="service-block" onClick={() => openModal('Serviços em Garantia')}>
                     <h2>Serviços em Garantia</h2>

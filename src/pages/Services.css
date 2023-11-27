@@ -1,5 +1,32 @@
+.subtitle {
+    display: flex;
+    background-color: rgb(4, 139, 236,8);
+    margin: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    color: #015baf;
+}
 
-.services-container, .service-mod-content {
+.subtitle-paragraph {
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 20px 40px 20px 228px;
+    justify-content: center;
+    align-items: center;    
+    max-width: 900px;
+}
+
+.services-container,
+.service-mod-content {
     text-align: center;
     color: #ffbc09;
 }
@@ -47,7 +74,14 @@
         width: 90%;
     }
 }
-
+.title-service{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.subtitle-paragraph{
+    margin: 20px;
+}
 .service-mod-content {
     background-color: #0077CC;
     padding: 20px;
@@ -72,7 +106,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -45vh; 
+    top: -45vh;
 }
 
 
