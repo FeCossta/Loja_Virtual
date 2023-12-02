@@ -8,7 +8,11 @@ const ProductDeatail = ({ product }) => {
   const openModalDetail = () => {
     setShowModal(true);
     setProductName(product.name);
+    setProductCode(product.code)
   };
+
+  const [productCode, setProductCode] = useState('');
+
 
   const closeModalDetail = () => {
     setShowModal(false);
@@ -159,7 +163,7 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
-            {product.aspmh && ( 
+            {product.aspmh && (
               <tr>
                 <td>Aspiração ar (m³/hora)</td>
                 <td>{product.aspmh}</td>
@@ -310,7 +314,7 @@ const ProductDeatail = ({ product }) => {
               </tr>
             )}
 
-            {product.viscosidade && ( 
+            {product.viscosidade && (
               <tr>
                 <td>Viscosidade Máxima</td>
                 <td>{product.viscosidade}</td>
@@ -495,7 +499,7 @@ const ProductDeatail = ({ product }) => {
 
             }
 
-            {product.whaterSuc && ( 
+            {product.whaterSuc && (
               <tr>
                 <td>Aspira água?</td>
                 <td>{product.whaterSuc}</td>
@@ -859,30 +863,46 @@ const ProductDeatail = ({ product }) => {
         <div className="modal-detail">
           <h2>Solicite um Orçamento</h2>
           <form action="https://formspree.io/f/mbjvbzea" method="POST">
+
             <input type="hidden" name="Produto" value={productName} />
-            <input type="text" placeholder="Nome" name="Nome" required />
-            <input type="email" placeholder="E-mail" name="_replyto" required />
-            <input type="text" placeholder="CNPJ" name="CNPJ" required />
-            <input type="text" placeholder="Telefone" name="Telefone" required />
-            <input type="text" placeholder="Celular" name="Celular" required />
-            <select name="Variação/Quantidade" required>
-              <option value="">Variação desejada para este produto</option>
-              {Object.keys(product).map((key) => {
-                if (key.startsWith('op')) {
-                  return (
-                    <option key={key} value={product[key]}>
-                      {product[key]}
-                    </option>
-                  );
-                }
-                return null;
-              })}
-            </select>
+            <input type='hidden' name='Code' value={productCode} />
+
+            <label htmlFor="Nome">Nome</label>
+            <input type="text" id="Nome" placeholder="Nome" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
+
+
+            <label htmlFor="_replyto">E-mail</label>
+            <input type="email" id="_replyto" placeholder="E-mail" name="_replyto" required />
+
+            <label htmlFor="CNPJ">CNPJ</label>
+            <input type="text" id="CNPJ" placeholder="CNPJ" name="CNPJ" required />
+
+            <label htmlFor="Celular">Celular</label>
+            <input type="text" id="Celular" placeholder="Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
+
+
+            {Object.keys(product).some((key) => key.startsWith('op')) && (
+              <select id="VariacaoQuantidade" name="Variação/Quantidade" required>
+                <label htmlFor="VariacaoQuantidade">Variação/Quantidade</label>
+                <option value="">Variação desejada para este produto</option>
+                {Object.keys(product).map((key) => {
+                  if (key.startsWith('op')) {
+                    return (
+                      <option key={key} value={product[key]}>
+                        {product[key]}
+                      </option>
+                    );
+                  }
+                  return null;
+                })}
+              </select>
+            )}
+
 
             <p>* Preencha seus dados no formulário acima que entraremos em contato com o orçamento do produto.</p>
-            <button type="submit">Enviar</button>
+            <button className='modal-button' type="submit">Enviar</button>
           </form>
-          <button className='closer' onClick={closeModalDetail}>Fechar</button>
+          <button className='closer modal-button' onClick={closeModalDetail}>Fechar</button>
         </div>
       )}
     </>
