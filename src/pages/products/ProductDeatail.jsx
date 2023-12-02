@@ -868,17 +868,17 @@ const ProductDeatail = ({ product }) => {
             <input type='hidden' name='Code' value={productCode} />
 
             <label htmlFor="Nome">Nome</label>
-            <input type="text" id="Nome" placeholder="Nome" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
+            <input type="text" id="Nome" placeholder="Preencha com seu nome" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
 
 
             <label htmlFor="_replyto">E-mail</label>
-            <input type="email" id="_replyto" placeholder="E-mail" name="_replyto" required />
+            <input type="email" id="_replyto" placeholder="Preencha com seu E-mail" name="_replyto" required />
 
             <label htmlFor="CNPJ">CNPJ</label>
-            <input type="text" id="CNPJ" placeholder="CNPJ" name="CNPJ" required />
+            <input type="text" id="CNPJ" placeholder="Preencha com seu CNPJ" name="CNPJ" required />
 
             <label htmlFor="Celular">Celular</label>
-            <input type="text" id="Celular" placeholder="Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
+            <input type="text" id="Celular" placeholder="Preencha com seu Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
 
 
             {Object.keys(product).some((key) => key.startsWith('op')) && (
