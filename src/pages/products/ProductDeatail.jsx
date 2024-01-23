@@ -5,13 +5,20 @@ const ProductDeatail = ({ product }) => {
   const [showModal, setShowModal] = useState(false);
 
   const [productName, setProductName] = useState('');
+  const [productCode, setProductCode] = useState('');
+
+  const [tipoCliente, setTipoCliente] = useState("");
+  const [clienteDocumento, setClienteDocumento] = useState("");
+
+
+
+
   const openModalDetail = () => {
     setShowModal(true);
     setProductName(product.name);
     setProductCode(product.code)
   };
 
-  const [productCode, setProductCode] = useState('');
 
 
   const closeModalDetail = () => {
@@ -864,21 +871,41 @@ const ProductDeatail = ({ product }) => {
           <h2>Solicite um Orçamento</h2>
           <form action="https://formspree.io/f/mbjvbzea" method="POST">
 
-            <input type="hidden" name="Produto" value={productName} />
-            <input type='hidden' name='Code' value={productCode} />
+            <label htmlFor="TipoCliente">Tipo de Cliente</label>
+            <select id="TipoCliente" name="TipoCliente" onChange={(e) => setTipoCliente(e.target.value)} required>
+              <option value="">Selecione o tipo de cliente</option>
+              <option value="Pessoa-fisica">Pessoa Física</option>
+              <option value="Pessoa-juridica">Pessoa Jurídica</option>
+            </select>
 
-            <label htmlFor="Nome">Nome</label>
-            <input type="text" id="Nome" placeholder="Preencha com seu nome" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
+            {tipoCliente === "Pessoa-fisica" && (
+              <>
+                <label htmlFor="Nome">Nome</label>
+                <input type="text" id="Nome" placeholder="Preencha com seu nome" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
+                <label htmlFor="CPF">CPF</label>
+                <input type="text" id="CPF" placeholder="Preencha com seu CPF" name="CPF" onChange={(e) => setClienteDocumento(e.target.value)} required />
+                <label htmlFor="_replyto">E-mail</label>
+                <input type="email" id="_replyto" placeholder="Preencha com seu E-mail" name="_replyto" required />
+                <label htmlFor="Celular">Celular</label>
+                <input type="text" id="Celular" placeholder="Preencha com seu Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
+              </>
+            )}
+
+            {tipoCliente === "Pessoa-juridica" && (
+              <>
+                <label htmlFor="Nome">Nome Fantasia </label>
+                <input type="text" id="Nome" placeholder="Preencha com seu Nome Fantasia" name="Nome" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="Apenas letras são permitidas" required />
+                <label htmlFor="CNPJ">CNPJ</label>
+                <input type="text" id="CNPJ" placeholder="Preencha com seu CNPJ" name="CNPJ" onChange={(e) => setClienteDocumento(e.target.value)} required />
+                <label htmlFor="_replyto">E-mail</label>
+                <input type="email" id="_replyto" placeholder="Preencha com seu E-mail" name="_replyto" required />
+                <label htmlFor="Celular">Celular</label>
+                <input type="text" id="Celular" placeholder="Preencha com um número para contato" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
+              </>
+            )}
 
 
-            <label htmlFor="_replyto">E-mail</label>
-            <input type="email" id="_replyto" placeholder="Preencha com seu E-mail" name="_replyto" required />
 
-            <label htmlFor="CNPJ">CNPJ / CPF</label>
-            <input type="text" id="CNPJ" placeholder="Preencha com seu CNPJ ou CPF" name="CNPJ" required />
-
-            <label htmlFor="Celular">Celular</label>
-            <input type="text" id="Celular" placeholder="Preencha com seu Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />
 
 
             {Object.keys(product).some((key) => key.startsWith('op')) && (
