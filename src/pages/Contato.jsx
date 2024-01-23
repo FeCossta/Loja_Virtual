@@ -58,7 +58,7 @@ const Contato = () => {
               href={`https://api.whatsapp.com/send?phone=(21)970397632&text=${encodeURIComponent('Olá, ainda não fiz meu cadastro, porém quero tirar uma dúvida rápida')}`}
               target="_blank"
             >
-              Ou se preferir, entre em contato diretamente no nosso WhatsApp, clicando aqui:{' '}
+              <p className='redirect-1'>Ou se preferir, entre em contato diretamente no nosso WhatsApp, clicando aqui:{' '}</p>
               <span><FaWhatsapp /></span>
             </a>
           </p>

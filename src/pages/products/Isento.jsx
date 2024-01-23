@@ -105,7 +105,7 @@ const Isento = () => {
           {products.map((product) => (
             <a key={product.id} href={product.link} className="pistao-product">
               <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
+              <h3 className='product-name1'>{product.name}</h3>
               <p className='description'>{product.description}</p>
               <p className='pLink'>Clique para ver mais informações</p>
             </a>

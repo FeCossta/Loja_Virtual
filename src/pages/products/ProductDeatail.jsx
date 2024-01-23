@@ -874,8 +874,8 @@ const ProductDeatail = ({ product }) => {
             <label htmlFor="_replyto">E-mail</label>
             <input type="email" id="_replyto" placeholder="Preencha com seu E-mail" name="_replyto" required />
 
-            <label htmlFor="CNPJ">CNPJ</label>
-            <input type="text" id="CNPJ" placeholder="Preencha com seu CNPJ" name="CNPJ" required />
+            <label htmlFor="CNPJ">CNPJ / CPF</label>
+            <input type="text" id="CNPJ" placeholder="Preencha com seu CNPJ ou CPF" name="CNPJ" required />
 
             <label htmlFor="Celular">Celular</label>
             <input type="text" id="Celular" placeholder="Preencha com seu Celular" name="Celular" pattern="[0-9]+" title="Apenas números são permitidos" required />

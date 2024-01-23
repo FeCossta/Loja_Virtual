@@ -13,6 +13,7 @@
   justify-content: center;
 }
 
+
 .mobile-menu-button {
   cursor: pointer;
   display: flex;
@@ -152,6 +153,7 @@
 
 .compress {
   text-decoration: none;
+  color: #011b2e;
 
 }
 

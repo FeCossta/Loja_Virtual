@@ -3,7 +3,7 @@ import "./Pistao.css"
 import Navbar from '../../componentes/Navbar';
 import MainMenu from '../../componentes/MainMenu';
 import Footer from '../../componentes/Footer';
-
+ 
 
 const products = [
   {
@@ -160,7 +160,7 @@ const Pistao = () => {
           {products.map((product) => (
             <a key={product.id} href={product.link} className="pistao-product">
               <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
+              <h3 className='product-name1'>{product.name}</h3>
               <p className='description'>{product.description}</p>
               <p className='pLink'>Clique para ver mais informações</p>
             </a>

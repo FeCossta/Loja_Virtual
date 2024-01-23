@@ -60,7 +60,7 @@ const CompressoresPage = () => {
           {products.map((product) => (
             <a key={product.id} href={product.link} className="product">
               <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
+              <h3 className='product-name1'>{product.name}</h3>
               
               <p className='pLink'>Ver Mais {product.type}</p>
             </a>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MainMenu.css';
-import { FaHome } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa'; 
 
 function MainMenu() {
     const [isSticky, setSticky] = useState(false);
