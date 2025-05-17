@@ -1,0 +1,40 @@
+
+.error-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .error-message {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titleError {
+    font-size: 24px;
+    color: #ff0000;
+  }
+  
+.error-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+
+
+.error-message button {
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  background-color:#3399FF;
+  cursor: pointer;
+}
+
+.error-message button:hover {
+  background-color: #0077CC; color: #ffbc09;
+}
