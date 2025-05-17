@@ -1,0 +1,83 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-main {
+    padding: 0px;
+    margin:0
+  }
+  
+  .App-section {
+    margin-bottom: 40px;
+  }  
+
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdfafa;
+    padding: 0;
+   
+    margin: 0;
+}
+
+.sacTopo .blocks {
+  display: flex;
+}
+
+.sacTopo .blocks .block {
+  flex: 1;
+  display: flex;
+  align-items: center; /* Alinha verticalmente o conteúdo */
+  border-right: 1px solid rgba(0, 0, 255, 0.2);
+
+  padding: 10px;
+}
+
+.sacTopo .blocks .block a {
+  display: flex;
+  cursor: pointer;
+}
+
+.sacTopo .blocks .block .desc {
+  margin-left: 100px;
+  flex-wrap: wrap;
+  margin-right: 45px;
+  text-align:left;
+}
+
+.sacTopo .blocks .block:nth-child(1) {
+  background: url(./assets/us/sac-venda.png) 0 0 no-repeat;
+  margin-left: 25px;
+}
+
+.sacTopo .blocks .block:nth-child(2) {
+  background: url(./assets/us/sac-assistencia.png) 0 0 no-repeat;
+  margin-left: 25px;
+}
+
+.sacTopo .blocks .block:nth-child(3) {
+  background: url(./assets/us/sac-contato.png) 0 0 no-repeat;
+  margin-left: 25px;
+}
+
+.sacTopo a {
+  text-decoration: none;
+}
+
+.sacTopo .blocks .title {
+  padding: 14px 0 10px;
+  color: #ffbc09;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 0;
+}
+
+.sacTopo p {
+  color: #010101;
+}
+
+.sacTopo{
+  padding-bottom: 60px ;
+ 
+}
