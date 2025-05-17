@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Inicial -->
+  <url>
+    <loc>https://lojamanutec.com.br/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página Contato -->
+  <url>
+    <loc>https://lojamanutec.com.br/contato</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página de Erro -->
+  <url>
+    <loc>https://lojamanutec.com.br/error</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Página Compressores -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Página Compressores - Pistao -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores/pistao</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Compressores - Parafuso -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores/parafuso</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Compressores - Isento -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores/isento</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Compressores - Jet -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores/jet</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Tratamento -->
+  <url>
+    <loc>https://lojamanutec.com.br/tratamento</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Página Tratamento - Secadoras -->
+  <url>
+    <loc>https://lojamanutec.com.br/tratamento/secadoras</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Compressores - Produto List -->
+  <url>
+    <loc>https://lojamanutec.com.br/compressores/produto-list</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página Compressores - Detalhe do Produto -->
+  <!-- Adicione uma entrada para cada produto no seu JSON -->
+  <url>
+    <loc>https://lojamanutec.com.br/caminho-do-produto</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
